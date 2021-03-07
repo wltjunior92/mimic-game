@@ -1,7 +1,21 @@
 import Head from 'next/head'
 import { useEffect, useState } from 'react';
 import Header from '../components/Header';
-import { Container, Countdown, Settings, StartCountdownButton, StopCountdownButton, ResetCountdownButton } from '../styles/pages/Home';
+import PlayerCard from '../components/PlayerCard';
+import {
+  Container,
+  Countdown,
+  Settings,
+  StartCountdownButton,
+  StopCountdownButton,
+  ResetCountdownButton,
+  PlayersDisplay
+} from '../styles/pages/Home';
+
+interface Player {
+  name: string;
+  color: string;
+}
 
 let countdownTimeout: NodeJS.Timeout;
 
@@ -11,11 +25,30 @@ const Home: React.FC = () => {
   const [isCountdownActive, setIsCountdownActive] = useState(false)
   const [hasFinished, setHasFinished] = useState(false)
 
+  const [hasGeneratedColor, setHasGeneratedColor] = useState(false)
+  const [lastRandomColor, setLastRandomColor] = useState(0)
+
+  const [playerName, setPlayerName] = useState('')
+  const [playersList, setPlayersList] = useState<Player[]>([])
+
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
 
   const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('');
   const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('');
+
+  const colors: string[] = [
+    '#86CCDB',
+    '#DBD54B',
+    '#E497E1',
+    '#4EDC5C',
+    '#8D48AE',
+    '#8B89EF',
+    '#24242C',
+    '#A32323',
+    '#E88108',
+    '#DA1C60',
+  ]
 
   useEffect(() => {
     if (isCountdownActive && time > 0) {
@@ -43,6 +76,31 @@ const Home: React.FC = () => {
     setIsCountdownActive(true);
   }
 
+  function insertPlayer() {
+    let random: number;
+    if (!hasGeneratedColor) {
+      random = Math.floor(Math.random() * colors.length)
+      console.log(random);
+      setLastRandomColor(random)
+      setHasGeneratedColor(true)
+    } else {
+      setLastRandomColor(lastRandomColor + 1)
+    }
+    if (lastRandomColor >= (colors.length - 1)) {
+      setLastRandomColor(0)
+    }
+
+    const color = colors[lastRandomColor];
+    const newPlayer: Player = { name: playerName, color }
+    setPlayersList([...playersList, newPlayer])
+  }
+
+  function deletePlayer(index: number) {
+    const copyPlayersList = Array.from(playersList)
+    copyPlayersList.splice(index, 1)
+    setPlayersList(copyPlayersList)
+  }
+
   return (
     <Container>
       <Head>
@@ -52,7 +110,7 @@ const Home: React.FC = () => {
 
       <div className="data_settings_container">
         <Settings>
-          <div>
+          <div className="time_settings">
             <p>Tempo(minutos):</p>
             <input
               type="text"
@@ -61,9 +119,20 @@ const Home: React.FC = () => {
             />
           </div>
 
-          <button type="button">
-            Adicionar jogador
-          </button>
+          <div className="insert_player">
+            <h1>Inserir jogador</h1>
+
+            <div>
+              <p>Nome: </p>
+              <input
+                type="text"
+                onChange={e => setPlayerName(e.target.value)}
+              />
+            </div>
+            <button type="button" onClick={insertPlayer}>
+              Adicionar
+            </button>
+          </div>
         </Settings>
 
         <Countdown>
@@ -110,6 +179,24 @@ const Home: React.FC = () => {
           }
         </Countdown>
       </div>
+
+      {playersList.length > 0 ? (
+        <PlayersDisplay>
+          {playersList.map((player, index) => (
+            <PlayerCard key={index} name={player.name} color={player.color}>
+              <button
+                type="button"
+                className="close_button"
+                onClick={e => deletePlayer(index)}
+              >
+                <img src="icons/close.png" alt="Fechar" />
+              </button>
+            </PlayerCard>
+          ))}
+        </PlayersDisplay>
+      ) : (
+          <h1 style={{ marginTop: '2rem' }}>Adicione algum jogador ^_^</h1>
+        )}
     </Container>
   )
 }

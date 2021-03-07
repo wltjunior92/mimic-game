@@ -16,9 +16,8 @@ export const Container = styled.div`
 
     justify-content: center;
     width: 100%;
-
-
   }
+
   @media(max-width: 1000px) {
     .data_settings_container {
       display: flex;
@@ -38,18 +37,56 @@ export const Settings = styled.div`
   align-items: center;
   justify-content: center;
 
-  div {
+  .time_settings {
     display: flex;
+    flex-direction: row;
+    justify-content: left;
 
     input {
       border: 0;
       background-color: #CDD7F1;
       padding: 0 1.8rem;
       max-width: 100px;
+      height: 1.5rem;
       margin-left: 1rem;
 
       border-radius: 10px;
     }
+  }
+
+  .insert_player {
+    padding-top: 0.8rem;
+    border-top: solid 1px #CDD7F1;
+    margin-top: 1.5rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    div {
+      margin-top: 1rem;
+      display: flex;
+      flex: 1;
+
+      input {
+        border: 0;
+        background-color: #CDD7F1;
+        padding: 0 1.8rem;
+        max-width: 140px;
+        height: 1.5rem;
+        margin-left: 1rem;
+
+        border-radius: 10px;
+      }
+    }
+    align-items: center;
+    justify-content: center;
   }
 
   button {
@@ -182,4 +219,17 @@ border: 0;
   :hover {
     filter: brightness(90%);
   }
+`
+export const PlayersDisplay = styled.div`
+  height: auto;
+  width: 92%;
+  padding: 0.4rem;
+  margin: 1.5rem 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.2);
 `
