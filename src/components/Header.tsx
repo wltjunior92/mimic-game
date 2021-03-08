@@ -10,9 +10,30 @@ export default function Header() {
       <img src="logo_small.svg" alt="Mimicando" />
 
       <div className="buttons">
-        <button>Home</button>
-        <button>Cartas</button>
-        <button>Temas</button>
+        <button
+          onClick={e => {
+            e.preventDefault
+            router.push('/')
+          }}
+        >
+          Home
+        </button>
+        <button
+          onClick={e => {
+            e.preventDefault
+            router.push('/cards')
+          }}
+        >
+          Cartas
+        </button>
+        <button
+          onClick={e => {
+            e.preventDefault
+            router.push('/themes')
+          }}
+        >
+          Temas
+        </button>
       </div>
     </HeaderContainer>
   )
