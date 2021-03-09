@@ -114,7 +114,7 @@ const Home: React.FC = () => {
             <p>Tempo(minutos):</p>
             <input
               type="text"
-              value="0"
+              value={initialValue}
               onChange={e => setInitialValue(Number(e.target.value))}
             />
           </div>
