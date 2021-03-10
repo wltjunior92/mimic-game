@@ -1,27 +1,16 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
 
-import Prismic from 'prismic-javascript'
-
-
 import CardItem from "../components/CardItem";
 import Header from "../components/Header";
 
 import { Container, SettingsContainer, ContentContainer, CardContainer } from "../styles/pages/Cards";
-import { client } from "../lib/prismic";
-import { Document } from "prismic-javascript/types/documents";
 import DrawItens from "../utils/DrawItems";
 
-interface Combobox {
-  id: string;
-  value: string;
-  name: string;
-}
-
-interface Item {
-  id: string;
-  name: string;
-}
+import themes from '../data/themes.json'
+import difficulties from '../data/difficulties.json'
+import types from '../data/types.json'
+import itens from '../data/itens.json'
 
 export default function Cards() {
   const [theme, setTheme] = useState('');
@@ -29,104 +18,41 @@ export default function Cards() {
   const [type, setType] = useState('');
   const [quantity, setQuantity] = useState(5);
 
-  const [themes, setThemes] = useState<Combobox[]>([])
-  const [difficulties, setDifficulties] = useState<Combobox[]>([])
-  const [types, setTypes] = useState<Combobox[]>([])
+  const [cardItens, setCardItens] = useState([])
 
-  const [cardItens, setCardItens] = useState<Item[]>([])
-
-  useEffect(() => {
-    let themesList: Combobox[] = []
-    const promise = new Promise((resolve, reject) => {
-      resolve(
-        client().query([
-          Prismic.Predicates.at('document.type', 'theme')
-        ]).then(response => {
-          response.results.map(theme => {
-            themesList.push({
-              id: theme.id,
-              value: theme.uid,
-              name: theme.data.name[0].text,
-            })
-          })
-        })
-      )
-    })
-    promise.then((res) => {
-      setThemes(themesList)
-    })
-  }, [])
-
-  useEffect(() => {
-    let difficultiesList: Combobox[] = []
-    const promise = new Promise((resolve, reject) => {
-      resolve(
-        client().query([
-          Prismic.Predicates.at('document.type', 'difficulty')
-        ]).then(response => {
-          response.results.map(difficulty => {
-            difficultiesList.push({
-              id: difficulty.id,
-              value: difficulty.uid,
-              name: difficulty.data.name[0].text,
-            })
-          })
-        })
-      )
-    })
-    promise.then((res) => {
-      setDifficulties(difficultiesList)
-    })
-  }, [])
-
-  useEffect(() => {
-    let typesList: Combobox[] = []
-    const promise = new Promise((resolve, reject) => {
-      resolve(
-        client().query([
-          Prismic.Predicates.at('document.type', 'type')
-        ]).then(response => {
-          response.results.map(type => {
-            typesList.push({
-              id: type.id,
-              value: type.uid,
-              name: type.data.name[0].text,
-            })
-          })
-        })
-      )
-    })
-    promise.then((res) => {
-      setTypes(typesList)
-    })
-  }, [])
+  const [cachedItens, setCachedItens] = useState([])
 
   function handleDrawCard() {
-    setCardItens([])
+    if (cardItens.length > 0) {
+      const emptyList = []
+      setCardItens(emptyList)
+    }
     if (theme !== '' && difficulty !== '' && type !== '' && quantity > 0 && quantity <= 10) {
-      let itensList: Item[] = []
+      const filteredResult = itens.filter(item =>
+        (item.theme === theme) &&
+        (item.difficulty === difficulty) &&
+        (item.type === type)
+      )
 
-      const promise = new Promise((resolve, reject) => {
-        resolve(
-          client().query([
-            Prismic.Predicates.at('document.type', 'item'),
-            Prismic.Predicates.at('my.item.theme', theme),
-            Prismic.Predicates.at('my.item.difficulty', difficulty),
-            Prismic.Predicates.at('my.item.type', type),
-          ]).then(response => {
-            response.results.map(type => {
-              itensList.push({
-                id: type.uid,
-                name: type.data.item[0].text,
-              })
-            })
-          })
-        )
-      })
-      promise.then((res) => {
-        const sortedList: Item[] = DrawItens(itensList, quantity)
-        setCardItens(sortedList)
-      })
+      let sortedList: any[]
+      if (cachedItens.length === 0) {
+        sortedList = DrawItens(filteredResult, quantity)
+      } else {
+        const newSourceList = filteredResult.filter(item => {
+          return cachedItens.every(compare => item.value !== compare.value)
+        })
+        sortedList = DrawItens(newSourceList, quantity)
+      }
+
+      if (sortedList.length > quantity) {
+        sortedList.splice(0, 1)
+      }
+
+      setCardItens(sortedList)
+      setCachedItens(cachedItens.concat(sortedList))
+      if (cachedItens.length >= filteredResult.length) {
+        setCachedItens([])
+      }
     }
   }
 
@@ -144,7 +70,7 @@ export default function Cards() {
             <select onChange={e => setTheme(e.target.value)}>
               <option>--Selecione--</option>
               {themes.map(theme => (
-                <option key={theme.value} value={theme.id}>{theme.name}</option>
+                <option key={theme.value} value={theme.value}>{theme.theme}</option>
               ))}
             </select>
           </div>
@@ -153,7 +79,7 @@ export default function Cards() {
             <select onChange={e => setDifficulty(e.target.value)}>
               <option>--Selecione--</option>
               {difficulties.map(difficulty => (
-                <option key={difficulty.value} value={difficulty.id}>{difficulty.name}</option>
+                <option key={difficulty.value} value={difficulty.value}>{difficulty.difficulty}</option>
               ))}
             </select>
           </div>
@@ -162,7 +88,7 @@ export default function Cards() {
             <select onChange={e => setType(e.target.value)}>
               <option>--Selecione--</option>
               {types.map(type => (
-                <option key={type.value} value={type.id}>{type.name}</option>
+                <option key={type.value} value={type.value}>{type.type}</option>
               ))}
             </select>
           </div>
@@ -183,8 +109,8 @@ export default function Cards() {
 
         {cardItens.length !== 0 && (
           <CardContainer>
-            {cardItens.map((item, index) => (
-              <CardItem key={index}>{item.name}</CardItem>
+            {cardItens.map(item => (
+              <CardItem key={item.value}>{item.item}</CardItem>
             ))}
           </CardContainer>
         )}

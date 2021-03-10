@@ -1,0 +1,18 @@
+[
+  {
+    "value": "objeto",
+    "type": "Objeto"
+  },
+  {
+    "value": "acao",
+    "type": "Ação"
+  },
+  {
+    "value": "mix",
+    "type": "Mix"
+  },
+  {
+    "value": "personagem-pessoa",
+    "type": "Personagem/Pessoa"
+  }
+]

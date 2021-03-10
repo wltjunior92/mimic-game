@@ -31,8 +31,8 @@ function doubleCheck(generatedList: any[], originalList: any[]) {
   let excludedItens: number
 
   generatedList.forEach(item => {
-    newList = generatedList.filter(compare => item.name !== compare.name)
-    excludedItens = generatedList.filter(compare => item.name === compare.name).length
+    newList = generatedList.filter(compare => item.value !== compare.value)
+    excludedItens = generatedList.filter(compare => item.value === compare.value).length
   })
 
   if (newList.length === generatedList.length) {
@@ -43,7 +43,7 @@ function doubleCheck(generatedList: any[], originalList: any[]) {
     let random = Math.floor(Math.random() * (originalList.length - 0) + 0)
     let newItem = originalList[random];
 
-    while (newList.some(item => newItem.name === item.name)) {
+    while (newList.some(item => newItem.value === item.value)) {
       random = Math.floor(Math.random() * (originalList.length - 0) + 0)
       newItem = originalList[random];
     }

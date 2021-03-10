@@ -1,0 +1,18 @@
+[
+  {
+    "value": "facil",
+    "difficulty": "Fácil"
+  },
+  {
+    "value": "medio",
+    "difficulty": "Médio"
+  },
+  {
+    "value": "dificil",
+    "difficulty": "Difícil"
+  },
+  {
+    "value": "impossivel",
+    "difficulty": "Impossível"
+  }
+]

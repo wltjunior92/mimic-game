@@ -13,6 +13,7 @@ import {
 } from '../styles/pages/Home';
 
 interface Player {
+  id: string;
   name: string;
   color: string;
 }
@@ -91,11 +92,13 @@ const Home: React.FC = () => {
     }
 
     const color = colors[lastRandomColor];
-    const newPlayer: Player = { name: playerName, color }
+    const id = (new Date()).valueOf().toString()
+    const newPlayer: Player = { id, name: playerName, color }
     setPlayersList([...playersList, newPlayer])
   }
 
-  function deletePlayer(index: number) {
+  function deletePlayer(id: string) {
+    const index = playersList.findIndex(player => player.id === id)
     const copyPlayersList = Array.from(playersList)
     copyPlayersList.splice(index, 1)
     setPlayersList(copyPlayersList)
@@ -157,37 +160,37 @@ const Home: React.FC = () => {
               Zerar
             </ResetCountdownButton>
           ) : (
-              <>
-                {isCountdownActive ? (
-                  <StopCountdownButton
-                    type="button"
-                    onClick={resetCountdown}
-                  >
-                    Parar
-                  </StopCountdownButton>
-                ) : (
-                    <StartCountdownButton
-                      type="button"
-                      onClick={startCountdown}
-                    >
-                      Start!
-                    </StartCountdownButton>
-                  )
-                }
-              </>
-            )
+            <>
+              {isCountdownActive ? (
+                <StopCountdownButton
+                  type="button"
+                  onClick={resetCountdown}
+                >
+                  Parar
+                </StopCountdownButton>
+              ) : (
+                <StartCountdownButton
+                  type="button"
+                  onClick={startCountdown}
+                >
+                  Start!
+                </StartCountdownButton>
+              )
+              }
+            </>
+          )
           }
         </Countdown>
       </div>
 
       {playersList.length > 0 ? (
         <PlayersDisplay>
-          {playersList.map((player, index) => (
-            <PlayerCard key={index} name={player.name} color={player.color}>
+          {playersList.map(player => (
+            <PlayerCard key={player.id} name={player.name} color={player.color}>
               <button
                 type="button"
                 className="close_button"
-                onClick={e => deletePlayer(index)}
+                onClick={e => deletePlayer(player.id)}
               >
                 <img src="icons/close.png" alt="Fechar" />
               </button>
@@ -195,8 +198,8 @@ const Home: React.FC = () => {
           ))}
         </PlayersDisplay>
       ) : (
-          <h1 style={{ marginTop: '2rem' }}>Adicione algum jogador ^_^</h1>
-        )}
+        <h1 style={{ marginTop: '2rem' }}>Adicione algum jogador ^_^</h1>
+      )}
     </Container>
   )
 }
