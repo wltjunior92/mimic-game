@@ -39,18 +39,31 @@ export const Settings = styled.div`
 
   .time_settings {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    input {
-      border: 0;
-      background-color: #CDD7F1;
-      padding: 0 1.8rem;
-      max-width: 100px;
-      height: 1.5rem;
-      margin-left: 1rem;
+    h3 {
+      text-align: center;
+    }
 
-      border-radius: 10px;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-top: 1.25rem;
+
+      input {
+        border: 0;
+        background-color: #CDD7F1;
+        padding: 0 1.8rem;
+        max-width: 100px;
+        height: 1.5rem;
+        margin-left: 1rem;
+
+        border-radius: 10px;
+      }
     }
   }
 

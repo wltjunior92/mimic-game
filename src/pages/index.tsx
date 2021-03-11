@@ -107,26 +107,29 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Head>
-        <title>Mimicando | Home</title>
+        <title>Mimic Fácil | Home</title>
       </Head>
       <Header />
 
       <div className="data_settings_container">
         <Settings>
           <div className="time_settings">
-            <p>Tempo(minutos):</p>
-            <input
-              type="text"
-              value={initialValue}
-              onChange={e => setInitialValue(Number(e.target.value))}
-            />
+            <h3>Quanto tempo para <br /> cada jogador?</h3>
+            <div>
+              <label>Tempo(minutos):</label>
+              <input
+                type="text"
+                value={initialValue}
+                onChange={e => setInitialValue(Number(e.target.value))}
+              />
+            </div>
           </div>
 
           <div className="insert_player">
-            <h1>Inserir jogador</h1>
+            <h3>Inserir jogador</h3>
 
             <div>
-              <p>Nome: </p>
+              <label>Nome: </label>
               <input
                 type="text"
                 onChange={e => setPlayerName(e.target.value)}
@@ -198,7 +201,7 @@ const Home: React.FC = () => {
           ))}
         </PlayersDisplay>
       ) : (
-        <h1 style={{ marginTop: '2rem' }}>Adicione algum jogador ^_^</h1>
+        <h1 style={{ marginTop: '2rem' }}>Adicione algum jogador 😛</h1>
       )}
     </Container>
   )

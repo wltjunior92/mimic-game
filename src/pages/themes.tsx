@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import Header from "../components/Header";
 import { ThemesContainer } from "../styles/pages/Themes";
 import axios from 'axios';
@@ -11,6 +11,11 @@ export default function Cards() {
   const [message, setMessage] = useState('')
   const [hasSendedMessage, setHasSendedMessage] = useState(false)
   const [isEmailValid, setIsEmailValid] = useState(null)
+
+  useEffect(() => {
+    setHasSendedMessage(false)
+    setIsEmailValid(null)
+  }, [email])
 
   async function handleSendThemeSugestion(e: FormEvent) {
     e.preventDefault();
@@ -39,7 +44,7 @@ export default function Cards() {
   return (
     <div>
       <Head>
-        <title>Mimicando | Temas</title>
+        <title>Mimic Fácil | Temas</title>
       </Head>
       <Header />
 
@@ -49,13 +54,13 @@ export default function Cards() {
             <h3>Obrigado por nos enviar sua sugestão de tema 🎉🎊</h3>
           </div>
         )}
-        {isEmailValid === false && (
-          <div className="message">
-            <h3>Por favor, digite um email válido 🤔</h3>
-          </div>
-        )}
         <form onSubmit={handleSendThemeSugestion}>
           <div className="email_container">
+            {isEmailValid === false && (
+              <div className="message_erro">
+                Por favor, digite um email válido 🤔
+              </div>
+            )}
             <label htmlFor="email">Email: *</label>
             <input
               id="email"

@@ -59,7 +59,7 @@ export default function Cards() {
   return (
     <Container>
       <Head>
-        <title>Mimicando | Cartas</title>
+        <title>Mimic Fácil | Cartas</title>
       </Head>
       <Header />
 

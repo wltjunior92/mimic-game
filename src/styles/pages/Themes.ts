@@ -15,6 +15,7 @@ export const ThemesContainer = styled.div`
   }
 
   .email_container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +39,24 @@ export const ThemesContainer = styled.div`
 
     label {
       margin-right: 20px;
+    }
+
+    .message_erro {
+      position: absolute;
+
+      padding: 0.05rem 0.2rem;
+
+      bottom: -0.65rem;
+      right: 0.65rem;
+      font-weight: 600;
+
+      border: 1px solid rgba(0, 0, 0, 0.2);
+
+      border-radius: 10px;
+      background: ${props => props.theme.colors.background};
+
+      font-size: 0.7rem;
+
     }
   }
 

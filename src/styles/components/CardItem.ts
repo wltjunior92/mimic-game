@@ -14,7 +14,7 @@ export const ItemContainer = styled.button<{ isChecked?: boolean }>`
 
   background: ${props => props.isChecked ? '#86FA73' : '#FFF069'};
 
-  color: ${props => props.isChecked ? '#FFFFFF' : '#000000'};
+  color: ${props => props.isChecked ? '#222222' : '#000000'};
 
   text-decoration: ${props => props.isChecked ? 'line-through' : 'none'};
 
