@@ -90,6 +90,12 @@ export const ThemesContainer = styled.div`
     align-items: center;
     justify-content: flex-end;
 
+    @media(max-width: 1000px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     button {
       border: 0;
       border-radius: 5px;

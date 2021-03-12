@@ -59,12 +59,27 @@ const Home: React.FC = () => {
     } else if (isCountdownActive && time === 0) {
       setHasFinished(true)
       setIsCountdownActive(false)
+      playNotification();
     }
   }, [isCountdownActive, time])
 
   useEffect(() => {
+    Notification.requestPermission();
+  }, [])
+
+  useEffect(() => {
     setTime(initialValue * 60)
   }, [initialValue])
+
+  function playNotification() {
+    if (Notification.permission === 'granted') {
+      new Audio('/notification.mp3').play();
+      new Notification('🔔Acabou o tempo!🔔', {
+        body: 'Será que deu tempo?😬',
+        silent: true,
+      })
+    }
+  }
 
   function resetCountdown() {
     clearTimeout(countdownTimeout)
@@ -121,7 +136,7 @@ const Home: React.FC = () => {
               <label>Tempo(minutos):</label>
               <input
                 type="text"
-                value={initialValue}
+                placeholder="0"
                 onChange={e => setInitialValue(Number(e.target.value))}
               />
             </div>
@@ -162,7 +177,7 @@ const Home: React.FC = () => {
               className="reset_countdow_button"
               onClick={resetCountdown}
             >
-              Zerar
+              Reiniciar
             </ResetCountdownButton>
           ) : (
             <>

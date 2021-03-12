@@ -40,8 +40,6 @@ export default createGlobalStyle`
 
   .ads {
     display: block;
-    border: solid 1px #000;
-    background: #d0d0d0;
     width: 160px;
     height: 60px;
   }
