@@ -59,27 +59,13 @@ const Home: React.FC = () => {
     } else if (isCountdownActive && time === 0) {
       setHasFinished(true)
       setIsCountdownActive(false)
-      playNotification();
+      new Audio('/notification.mp3').play();
     }
   }, [isCountdownActive, time])
 
   useEffect(() => {
-    Notification.requestPermission();
-  }, [])
-
-  useEffect(() => {
     setTime(initialValue * 60)
   }, [initialValue])
-
-  function playNotification() {
-    if (Notification.permission === 'granted') {
-      new Audio('/notification.mp3').play();
-      new Notification('🔔Acabou o tempo!🔔', {
-        body: 'Será que deu tempo?😬',
-        silent: true,
-      })
-    }
-  }
 
   function resetCountdown() {
     clearTimeout(countdownTimeout)
