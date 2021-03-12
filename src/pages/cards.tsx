@@ -1,5 +1,4 @@
-import Head from "next/head";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import CardItem from "../components/CardItem";
 import Header from "../components/Header";
@@ -8,13 +7,12 @@ import { Container, SettingsContainer, ContentContainer, CardContainer } from ".
 import DrawItens from "../utils/DrawItems";
 
 import themes from '../data/themes.json'
-import difficulties from '../data/difficulties.json'
 import types from '../data/types.json'
 import itens from '../data/itens.json'
+import SEO from "../components/SEO";
 
 export default function Cards() {
   const [theme, setTheme] = useState('');
-  const [difficulty, setDifficulty] = useState('');
   const [type, setType] = useState('');
   const [quantity, setQuantity] = useState(5);
 
@@ -23,15 +21,13 @@ export default function Cards() {
   const [cachedItens, setCachedItens] = useState([])
 
   function handleDrawCard() {
-    if (cardItens.length > 0) {
-      const emptyList = []
-      setCardItens(emptyList)
-    }
-    if (theme !== '' && difficulty !== '' && type !== '' && quantity > 0 && quantity <= 10) {
-      const filteredResult = itens.filter(item =>
-        (item.theme === theme) &&
-        (item.difficulty === difficulty) &&
-        (item.type === type)
+    setCardItens([])
+    if (theme !== '' && type !== '' && quantity > 0 && quantity <= 10) {
+      const filteredResult = itens.filter(item => {
+        const typeCompare: boolean = type === 'mix' ? true : item.type === type
+        return ((item.theme === theme) &&
+          typeCompare)
+      }
       )
 
       let sortedList: any[]
@@ -58,9 +54,11 @@ export default function Cards() {
 
   return (
     <Container>
-      <Head>
-        <title>Mimic Fácil | Cartas</title>
-      </Head>
+      <SEO
+        title="Cartas"
+        description="Sorteie uma carta e desafie seus amigos"
+        image="logo_small.svg"
+      />
       <Header />
 
       <ContentContainer>
@@ -71,15 +69,6 @@ export default function Cards() {
               <option>--Selecione--</option>
               {themes.map(theme => (
                 <option key={theme.value} value={theme.value}>{theme.theme}</option>
-              ))}
-            </select>
-          </div>
-          <div className="combobox_container difficulty">
-            <label>Dificuldade: </label>
-            <select onChange={e => setDifficulty(e.target.value)}>
-              <option>--Selecione--</option>
-              {difficulties.map(difficulty => (
-                <option key={difficulty.value} value={difficulty.value}>{difficulty.difficulty}</option>
               ))}
             </select>
           </div>
@@ -110,7 +99,7 @@ export default function Cards() {
         {cardItens.length !== 0 && (
           <CardContainer>
             {cardItens.map(item => (
-              <CardItem key={item.value}>{item.item}</CardItem>
+              <CardItem key={item.id}>{item.item}</CardItem>
             ))}
           </CardContainer>
         )}

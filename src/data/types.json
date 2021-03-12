@@ -5,14 +5,14 @@
   },
   {
     "value": "acao",
-    "type": "Ação"
-  },
-  {
-    "value": "mix",
-    "type": "Mix"
+    "type": "Ação/Habilidade"
   },
   {
     "value": "personagem-pessoa",
     "type": "Personagem/Pessoa"
+  },
+  {
+    "value": "mix",
+    "type": "Mix"
   }
 ]

@@ -1,7 +1,7 @@
-import Head from 'next/head'
 import { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import PlayerCard from '../components/PlayerCard';
+import SEO from '../components/SEO';
 import {
   Container,
   Countdown,
@@ -106,9 +106,11 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-      <Head>
-        <title>Mimic Fácil | Home</title>
-      </Head>
+      <SEO
+        title="Mimic Fácil, a melhor e mais fácil maneira de se divertir!"
+        image="logo_small.svg"
+        shouldExcludeTitleSuffix
+      />
       <Header />
 
       <div className="data_settings_container">

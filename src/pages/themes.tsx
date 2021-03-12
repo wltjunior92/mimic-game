@@ -1,10 +1,10 @@
-import Head from "next/head";
 import { FormEvent, useEffect, useState } from "react";
 import Header from "../components/Header";
 import { ThemesContainer } from "../styles/pages/Themes";
 import axios from 'axios';
 
 import { sendSugestionSchema } from '../validations/SendSugestionValidation'
+import SEO from "../components/SEO";
 
 export default function Cards() {
   const [email, setEmail] = useState('')
@@ -43,9 +43,11 @@ export default function Cards() {
 
   return (
     <div>
-      <Head>
-        <title>Mimic Fácil | Temas</title>
-      </Head>
+      <SEO
+        title="Sugestão de temas"
+        description="Envie-nos sugestões de temas"
+        image="logo_small.svg"
+      />
       <Header />
 
       <ThemesContainer>

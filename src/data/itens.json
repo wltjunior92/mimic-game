@@ -1,702 +1,7170 @@
 [
   {
-    "value": "--item--0",
+    "id": "cc6jwawcah",
+    "value": "abajur",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--0"
+    "item": "Abajur"
   },
   {
-    "value": "--item--1",
+    "id": "14ov8c0c0m",
+    "value": "abridor-de-latas",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--1"
+    "item": "Abridor de latas"
   },
   {
-    "value": "--item--2",
+    "id": "pmd34mf626",
+    "value": "agulha",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--2"
+    "item": "Agulha"
   },
   {
-    "value": "--item--3",
+    "id": "tuezpi3iuj",
+    "value": "alfinete",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--3"
+    "item": "Alfinete"
   },
   {
-    "value": "--item--4",
+    "id": "nbu06z1407",
+    "value": "algema",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--4"
+    "item": "Algema"
   },
   {
-    "value": "--item--5",
+    "id": "gfo5ylk4wp",
+    "value": "almofada",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--5"
+    "item": "Almofada"
   },
   {
-    "value": "--item--6",
+    "id": "yu2ma53acr",
+    "value": "anel",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--6"
+    "item": "Anel"
   },
   {
-    "value": "--item--7",
+    "id": "uomdxfwtba",
+    "value": "antena",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--7"
+    "item": "Antena"
   },
   {
-    "value": "--item--8",
+    "id": "re10b33yvx",
+    "value": "anzol",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--8"
+    "item": "Anzol"
   },
   {
-    "value": "--item--9",
+    "id": "waot9xip03",
+    "value": "apagador",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--9"
+    "item": "Apagador"
   },
   {
-    "value": "--item--10",
+    "id": "ech1i6c9s8",
+    "value": "apito",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--10"
+    "item": "Apito"
   },
   {
-    "value": "--item--11",
+    "id": "0aly8a7o2z",
+    "value": "apontador",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--11"
+    "item": "Apontador"
   },
   {
-    "value": "--item--12",
+    "id": "zign8yhkon",
+    "value": "aquecedor",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--12"
+    "item": "Aquecedor"
   },
   {
-    "value": "--item--13",
+    "id": "s3mzwit8cq",
+    "value": "arco",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--13"
+    "item": "Arco"
   },
   {
-    "value": "--item--14",
+    "id": "hp1fmyo9kp",
+    "value": "aspirador-de-po",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--14"
+    "item": "Aspirador de pó"
   },
   {
-    "value": "--item--15",
+    "id": "yy9vwjsy2p",
+    "value": "bacia",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--15"
+    "item": "Bacia"
   },
   {
-    "value": "--item--16",
+    "id": "u6pmnd6lvx",
+    "value": "balanca",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--16"
+    "item": "Balança"
   },
   {
-    "value": "--item--17",
+    "id": "h7h7n7z5ts",
+    "value": "banco",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--17"
+    "item": "Banco"
   },
   {
-    "value": "--item--18",
+    "id": "ziln5nnv2m",
+    "value": "bengala",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--18"
+    "item": "Bengala"
   },
   {
-    "value": "--item--19",
+    "id": "hzmtjbdutk",
+    "value": "berco",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--19"
+    "item": "Berço"
   },
   {
-    "value": "--item--20",
+    "id": "owjk46knmv",
+    "value": "berimbau",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--20"
+    "item": "Berimbau"
   },
   {
-    "value": "--item--21",
+    "id": "p3744xjy67",
+    "value": "bicicleta",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--21"
+    "item": "Bicicleta"
   },
   {
-    "value": "--item--22",
+    "id": "k3nrhl8rb5",
+    "value": "binoculo",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--22"
+    "item": "Binóculo"
   },
   {
-    "value": "--item--23",
+    "id": "kchi9h3c0h",
+    "value": "boia",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--23"
+    "item": "Boia"
   },
   {
-    "value": "--item--24",
+    "id": "e824fnxxmr",
+    "value": "bola",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--24"
+    "item": "Bola"
   },
   {
-    "value": "--item--25",
+    "id": "mg5qp4zbva",
+    "value": "boneca",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--25"
+    "item": "Boneca"
   },
   {
-    "value": "--item--26",
+    "id": "tzqzuma5tc",
+    "value": "borracha",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--26"
+    "item": "Borracha"
   },
   {
-    "value": "--item--27",
+    "id": "z4y1gvswb8",
+    "value": "botao",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--27"
+    "item": "Botão"
   },
   {
-    "value": "--item--28",
+    "id": "6jr9qnwv8g",
+    "value": "brinco",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--28"
+    "item": "Brinco"
   },
   {
-    "value": "--item--29",
+    "id": "r6wpwgsbrt",
+    "value": "bule",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--29"
+    "item": "Bule"
   },
   {
-    "value": "--item--30",
+    "id": "snb61erlgj",
+    "value": "bumerangue",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--30"
+    "item": "Bumerangue"
   },
   {
-    "value": "--item--31",
+    "id": "y8teuuodnr",
+    "value": "cabide",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--31"
+    "item": "Cabide"
   },
   {
-    "value": "--item--32",
+    "id": "d3pw5ivosr",
+    "value": "cadeado",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--32"
+    "item": "Cadeado"
   },
   {
-    "value": "--item--33",
+    "id": "uokdokjj8p",
+    "value": "cadeira",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--33"
+    "item": "Cadeira"
   },
   {
-    "value": "--item--34",
+    "id": "iqafx23e2q",
+    "value": "caderno",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--34"
+    "item": "Caderno"
   },
   {
-    "value": "--item--35",
+    "id": "9i57r3eb05",
+    "value": "caneta",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--35"
+    "item": "Caneta"
   },
   {
-    "value": "--item--36",
+    "id": "mx4kg18ldj",
+    "value": "canivete",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--36"
+    "item": "Canivete"
   },
   {
-    "value": "--item--37",
+    "id": "fw3mks6iyd",
+    "value": "capa",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--37"
+    "item": "Capa"
   },
   {
-    "value": "--item--38",
+    "id": "hmxcvvxhmm",
+    "value": "capacete",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--38"
+    "item": "Capacete"
   },
   {
-    "value": "--item--39",
+    "id": "wluomihoi3",
+    "value": "celular",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--39"
+    "item": "Celular"
   },
   {
-    "value": "--item--40",
+    "id": "oyp7ehxjn8",
+    "value": "chicote",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--40"
+    "item": "Chicote"
   },
   {
-    "value": "--item--41",
+    "id": "y7th4r6zf7",
+    "value": "chinelo",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--41"
+    "item": "Chinelo"
   },
   {
-    "value": "--item--42",
+    "id": "lompzhizt7",
+    "value": "chupeta",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--42"
+    "item": "Chupeta"
   },
   {
-    "value": "--item--43",
+    "id": "ugohnht1p2",
+    "value": "clipe",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--43"
+    "item": "Clipe"
   },
   {
-    "value": "--item--44",
+    "id": "comf6yfn7f",
+    "value": "colchao",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--44"
+    "item": "Colchão"
   },
   {
-    "value": "--item--45",
+    "id": "mtirethddh",
+    "value": "colher",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--45"
+    "item": "Colher"
   },
   {
-    "value": "--item--46",
+    "id": "p40m0ub7bv",
+    "value": "copo",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--46"
+    "item": "Copo"
   },
   {
-    "value": "--item--47",
+    "id": "pk0g75zila",
+    "value": "dado",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--47"
+    "item": "Dado"
   },
   {
-    "value": "--item--48",
+    "id": "3qwulp1kya",
+    "value": "dentadura",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--48"
+    "item": "Dentadura"
   },
   {
-    "value": "--item--49",
+    "id": "ro85v5zafg",
+    "value": "desentupidor",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--49"
+    "item": "Desentupidor"
   },
   {
-    "value": "--item--50",
+    "id": "rywfnb9ff5",
+    "value": "desodorante",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--50"
+    "item": "Desodorante"
   },
   {
-    "value": "--item--51",
+    "id": "35h1jgpvob",
+    "value": "despertador",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--51"
+    "item": "Despertador"
   },
   {
-    "value": "--item--52",
+    "id": "bho3o0skoh",
+    "value": "detergente",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--52"
+    "item": "Detergente"
   },
   {
-    "value": "--item--53",
+    "id": "t2s37zt07u",
+    "value": "diamante",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--53"
+    "item": "Diamante"
   },
   {
-    "value": "--item--54",
+    "id": "w20rj8jqnw",
+    "value": "diario",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--54"
+    "item": "Diário"
   },
   {
-    "value": "--item--55",
+    "id": "sloya8rbl7",
+    "value": "dicionario",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--55"
+    "item": "Dicionário"
   },
   {
-    "value": "--item--56",
+    "id": "d3yqawri6l",
+    "value": "dinamite",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--56"
+    "item": "Dinamite"
   },
   {
-    "value": "--item--57",
+    "id": "vhsfwxu8tm",
+    "value": "disco",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--57"
+    "item": "Disco"
   },
   {
-    "value": "--item--58",
+    "id": "n0htgq4i1j",
+    "value": "domino",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--58"
+    "item": "Dominó"
   },
   {
-    "value": "--item--59",
+    "id": "4tjcttghhm",
+    "value": "dvd",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--59"
+    "item": "DVD"
   },
   {
-    "value": "--item--60",
+    "id": "eadxpafy01",
+    "value": "edredom",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--60"
+    "item": "Edredom"
   },
   {
-    "value": "--item--61",
+    "id": "2pdenzobsg",
+    "value": "elastico",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--61"
+    "item": "Elástico"
   },
   {
-    "value": "--item--62",
+    "id": "o7af5lblu9",
+    "value": "envelope",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--62"
+    "item": "Envelope"
   },
   {
-    "value": "--item--63",
+    "id": "lm6yxu9bmd",
+    "value": "enxada",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--63"
+    "item": "Enxada"
   },
   {
-    "value": "--item--64",
+    "id": "go8b1zrjud",
+    "value": "escada",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--64"
+    "item": "Escada"
   },
   {
-    "value": "--item--65",
+    "id": "nn3eowu4el",
+    "value": "escorredor",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--65"
+    "item": "Escorredor"
   },
   {
-    "value": "--item--66",
+    "id": "x860y01u2t",
+    "value": "escova",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--66"
+    "item": "Escova"
   },
   {
-    "value": "--item--67",
+    "id": "fl4rgfb8ux",
+    "value": "escudo",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--67"
+    "item": "Escudo"
   },
   {
-    "value": "--item--68",
+    "id": "92h87dgx94",
+    "value": "espada",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--68"
+    "item": "Espada"
   },
   {
-    "value": "--item--69",
+    "id": "mde8clbw5w",
+    "value": "espanador",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--69"
+    "item": "Espanador"
   },
   {
-    "value": "--item--70",
+    "id": "nvb39k2l2u",
+    "value": "espelho",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--70"
+    "item": "Espelho"
   },
   {
-    "value": "--item--71",
+    "id": "510rkge1fm",
+    "value": "esponja",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--71"
+    "item": "Esponja"
   },
   {
-    "value": "--item--72",
+    "id": "ddfckr68kv",
+    "value": "espremedor",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--72"
+    "item": "Espremedor"
   },
   {
-    "value": "--item--73",
+    "id": "ooqajr2oyy",
+    "value": "estatua",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--73"
+    "item": "Estátua"
   },
   {
-    "value": "--item--74",
+    "id": "kqlewo8mw6",
+    "value": "esteira",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--74"
+    "item": "Esteira"
   },
   {
-    "value": "--item--75",
+    "id": "yfi29g0f6l",
+    "value": "estojo",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--75"
+    "item": "Estojo"
   },
   {
-    "value": "--item--76",
+    "id": "vzb0rggdpq",
+    "value": "extintor",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--76"
+    "item": "Extintor"
   },
   {
-    "value": "--item--77",
+    "id": "tocrig0sk4",
+    "value": "faca",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--77"
+    "item": "Faca"
   },
   {
-    "value": "--item--78",
+    "id": "0qrx2rg96b",
+    "value": "ferradura",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--78"
+    "item": "Ferradura"
   },
   {
-    "value": "--item--79",
+    "id": "t0xr8a08pb",
+    "value": "fichario",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--79"
+    "item": "Fichário"
   },
   {
-    "value": "--item--80",
+    "id": "t9k40tqiyf",
+    "value": "filmadora",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--80"
+    "item": "Filmadora"
   },
   {
-    "value": "--item--81",
+    "id": "zsl8d7w825",
+    "value": "filtro",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--81"
+    "item": "Filtro"
   },
   {
-    "value": "--item--82",
+    "id": "w9s4mbfvtt",
+    "value": "fio",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--82"
+    "item": "Fio"
   },
   {
-    "value": "--item--83",
+    "id": "frlwvms34b",
+    "value": "fita",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--83"
+    "item": "Fita"
   },
   {
-    "value": "--item--84",
+    "id": "i3ld6w47fj",
+    "value": "fivela",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--84"
+    "item": "Fivela"
   },
   {
-    "value": "--item--85",
+    "id": "pxr01a7trw",
+    "value": "flauta",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--85"
+    "item": "Flauta"
   },
   {
-    "value": "--item--86",
+    "id": "qqor2gbyn4",
+    "value": "flecha",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--86"
+    "item": "Flecha"
   },
   {
-    "value": "--item--87",
+    "id": "qu6vju7o58",
+    "value": "fogao",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--87"
+    "item": "Fogão"
   },
   {
-    "value": "--item--88",
+    "id": "olwf9hxxtw",
+    "value": "foguete",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--88"
+    "item": "Foguete"
   },
   {
-    "value": "--item--89",
+    "id": "l0s5ufrdit",
+    "value": "folha",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--89"
+    "item": "Folha"
   },
   {
-    "value": "--item--90",
+    "id": "8560d28ipm",
+    "value": "frasco",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--90"
+    "item": "Frasco"
   },
   {
-    "value": "--item--91",
+    "id": "r5yez85jqm",
+    "value": "freezer",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--91"
+    "item": "Freezer"
   },
   {
-    "value": "--item--92",
+    "id": "xwi339c9xr",
+    "value": "frigideira",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--92"
+    "item": "Frigideira"
   },
   {
-    "value": "--item--93",
+    "id": "ygzzm1bzuk",
+    "value": "fruteira",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--93"
+    "item": "Fruteira"
   },
   {
-    "value": "--item--94",
+    "id": "bablxy5y0r",
+    "value": "funil",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--94"
+    "item": "Funil"
   },
   {
-    "value": "--item--95",
+    "id": "79u6htuo1c",
+    "value": "gaiola",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--95"
+    "item": "Gaiola"
   },
   {
-    "value": "--item--96",
+    "id": "hib6m8eglj",
+    "value": "gancho",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--96"
+    "item": "Gancho"
   },
   {
-    "value": "--item--97",
+    "id": "9zqlwbcod9",
+    "value": "garfo",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--97"
+    "item": "Garfo"
   },
   {
-    "value": "--item--98",
+    "id": "78amqjr6me",
+    "value": "garrafa",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--98"
+    "item": "Garrafa"
   },
   {
-    "value": "--item--99",
+    "id": "de4bo9pd6g",
+    "value": "gaveta",
     "theme": "padrao",
-    "difficulty": "facil",
     "type": "objeto",
-    "item": "--Item--99"
+    "item": "Gaveta"
+  },
+  {
+    "id": "5u1rip47po",
+    "value": "geladeira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Geladeira"
+  },
+  {
+    "id": "jldgwj2diy",
+    "value": "grampeador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Grampeador"
+  },
+  {
+    "id": "ne2531wggq",
+    "value": "grampo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Grampo"
+  },
+  {
+    "id": "idn28skgdh",
+    "value": "granada",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Granada"
+  },
+  {
+    "id": "yywifgmne7",
+    "value": "gravata",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Gravata"
+  },
+  {
+    "id": "fm5ri3cvsc",
+    "value": "grelha",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Grelha"
+  },
+  {
+    "id": "ftphsarrg6",
+    "value": "grinalda",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Grinalda"
+  },
+  {
+    "id": "6ung3zcq24",
+    "value": "guarda-chuva",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Guarda-chuva"
+  },
+  {
+    "id": "p9gjwsqt5v",
+    "value": "guitarra",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Guitarra"
+  },
+  {
+    "id": "cytxom43fl",
+    "value": "harpa",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Harpa"
+  },
+  {
+    "id": "opqf2c9ve9",
+    "value": "helice",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Hélice"
+  },
+  {
+    "id": "oy4kplei4u",
+    "value": "helicoptero",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Helicóptero"
+  },
+  {
+    "id": "pecgmodalf",
+    "value": "hidrante",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Hidrante"
+  },
+  {
+    "id": "2oln120nqk",
+    "value": "hidratante",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Hidratante"
+  },
+  {
+    "id": "9rkpcby0aa",
+    "value": "hidroaviao",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Hidroavião"
+  },
+  {
+    "id": "xj3ycz64d7",
+    "value": "holofote",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Holofote"
+  },
+  {
+    "id": "xejvfhyhq9",
+    "value": "iate",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Iate"
+  },
+  {
+    "id": "oeoe5s8dh3",
+    "value": "ima",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Imã"
+  },
+  {
+    "id": "jy4ij18asu",
+    "value": "impressora",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Impressora"
+  },
+  {
+    "id": "r64r96vqty",
+    "value": "ingresso",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ingresso"
+  },
+  {
+    "id": "u8n7wtqbzb",
+    "value": "inseticida",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Inseticida"
+  },
+  {
+    "id": "qat3iwbgyb",
+    "value": "interfone",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Interfone"
+  },
+  {
+    "id": "x3l7las7oi",
+    "value": "interruptor",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Interruptor"
+  },
+  {
+    "id": "ca4emtfggk",
+    "value": "ioio",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ioiô"
+  },
+  {
+    "id": "u2x092iksc",
+    "value": "isca",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Isca"
+  },
+  {
+    "id": "xp4x5k1ovg",
+    "value": "isqueiro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Isqueiro"
+  },
+  {
+    "id": "k3ni60fbwn",
+    "value": "jaleco",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Jaleco"
+  },
+  {
+    "id": "bpkxgudovl",
+    "value": "janela",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Janela"
+  },
+  {
+    "id": "0e0kpvdjmh",
+    "value": "jaqueta",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Jaqueta"
+  },
+  {
+    "id": "nw8iw5mqjd",
+    "value": "jarra",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Jarra"
+  },
+  {
+    "id": "hblfhr5tph",
+    "value": "jarro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Jarro"
+  },
+  {
+    "id": "wltope27oe",
+    "value": "jato",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Jato"
+  },
+  {
+    "id": "3mhf8ligrg",
+    "value": "jaula",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Jaula"
+  },
+  {
+    "id": "iqu3z2i71s",
+    "value": "joia",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Joia"
+  },
+  {
+    "id": "0c8qzkw6za",
+    "value": "jornal",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Jornal"
+  },
+  {
+    "id": "h9bt162i9l",
+    "value": "joystick",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Joystick"
+  },
+  {
+    "id": "2g9ly5nfca",
+    "value": "ketchup",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ketchup"
+  },
+  {
+    "id": "uy2a51y1id",
+    "value": "lamina",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lâmina"
+  },
+  {
+    "id": "pe2mvlpuva",
+    "value": "lampada",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lâmpada"
+  },
+  {
+    "id": "9ckuybcd3a",
+    "value": "lanca",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lança"
+  },
+  {
+    "id": "hr9130uj4g",
+    "value": "lancheira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lancheira"
+  },
+  {
+    "id": "kyn7d0pzhy",
+    "value": "lanterna",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lanterna"
+  },
+  {
+    "id": "do1nsgii1o",
+    "value": "lapis",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lápis"
+  },
+  {
+    "id": "mnmqsit9ny",
+    "value": "lapiseira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lapiseira"
+  },
+  {
+    "id": "9sr6qbupvc",
+    "value": "lata",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lata"
+  },
+  {
+    "id": "wwfbjz51ge",
+    "value": "lenco",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lenço"
+  },
+  {
+    "id": "verbbdq5wp",
+    "value": "lencol",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lençol"
+  },
+  {
+    "id": "59nl8n2voj",
+    "value": "lente",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lente"
+  },
+  {
+    "id": "zdsgaqru4m",
+    "value": "leque",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Leque"
+  },
+  {
+    "id": "fhiufpzcvc",
+    "value": "liquidificador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Liquidificador"
+  },
+  {
+    "id": "l87t1fc1my",
+    "value": "livro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Livro"
+  },
+  {
+    "id": "a2h0jfskza",
+    "value": "luminaria",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Luminária"
+  },
+  {
+    "id": "mmo5wxmw3k",
+    "value": "luneta",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Luneta"
+  },
+  {
+    "id": "vb4sen4ctt",
+    "value": "luva",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Luva"
+  },
+  {
+    "id": "uw7r31o40e",
+    "value": "macaneta",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Maçaneta"
+  },
+  {
+    "id": "zx23f4mx13",
+    "value": "machado",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Machado"
+  },
+  {
+    "id": "dph3r5il09",
+    "value": "maio",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Maiô"
+  },
+  {
+    "id": "ac57vwezzd",
+    "value": "mala",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Mala"
+  },
+  {
+    "id": "mg5ai9lknu",
+    "value": "mamadeira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Mamadeira"
+  },
+  {
+    "id": "qca3chlu7g",
+    "value": "manequim",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Manequim"
+  },
+  {
+    "id": "mlrp48cdfu",
+    "value": "mangueira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Mangueira"
+  },
+  {
+    "id": "o9pn6c6ivy",
+    "value": "manivela",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Manivela"
+  },
+  {
+    "id": "ivhzbv727f",
+    "value": "maquina",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Máquina"
+  },
+  {
+    "id": "m3d1at6lv5",
+    "value": "marreta",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Marreta"
+  },
+  {
+    "id": "j4zcuigl5x",
+    "value": "martelo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Martelo"
+  },
+  {
+    "id": "rna4wwclms",
+    "value": "mascara",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Máscara"
+  },
+  {
+    "id": "e1izkxq2iy",
+    "value": "medalha",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Medalha"
+  },
+  {
+    "id": "9iznhdka6v",
+    "value": "megafone",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Megafone"
+  },
+  {
+    "id": "zyerhg5tpp",
+    "value": "meia",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Meia"
+  },
+  {
+    "id": "szimk3kzra",
+    "value": "microfone",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Microfone"
+  },
+  {
+    "id": "y3lw7pmxyp",
+    "value": "microscopio",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Microscópio"
+  },
+  {
+    "id": "vejoqydd99",
+    "value": "mochila",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Mochila"
+  },
+  {
+    "id": "yz8sqhw4yc",
+    "value": "mola",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Mola"
+  },
+  {
+    "id": "e8ibaoc05t",
+    "value": "nadadeira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Nadadeira"
+  },
+  {
+    "id": "klv3ukrb9k",
+    "value": "narguile",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Narguilé"
+  },
+  {
+    "id": "9mq319m702",
+    "value": "navalha",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Navalha"
+  },
+  {
+    "id": "djkeqe5n1o",
+    "value": "nave",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Nave"
+  },
+  {
+    "id": "vbibq83ncx",
+    "value": "navio",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Navio"
+  },
+  {
+    "id": "b29bueodui",
+    "value": "nebulizador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Nebulizador"
+  },
+  {
+    "id": "gy308t5ymg",
+    "value": "notebook",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Notebook"
+  },
+  {
+    "id": "pfhing6mso",
+    "value": "novelo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Novelo"
+  },
+  {
+    "id": "hb2ink767p",
+    "value": "oboe",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Oboé"
+  },
+  {
+    "id": "kc7i1rdt3f",
+    "value": "oculos",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Óculos"
+  },
+  {
+    "id": "q1unsnxxjl",
+    "value": "odre",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Odre"
+  },
+  {
+    "id": "t2epcfyxfo",
+    "value": "oftalmoscopio",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Oftalmoscópio"
+  },
+  {
+    "id": "znehw71h9c",
+    "value": "olho-magico",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Olho mágico"
+  },
+  {
+    "id": "9hrmdtnk4i",
+    "value": "ombreira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ombreira"
+  },
+  {
+    "id": "jaaxsksea9",
+    "value": "orelhao",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Orelhão"
+  },
+  {
+    "id": "ckmzimhayb",
+    "value": "orgao",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Orgão"
+  },
+  {
+    "id": "sntsk06c2i",
+    "value": "ouro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ouro"
+  },
+  {
+    "id": "c07l6yp2ro",
+    "value": "ovni",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "OVNI"
+  },
+  {
+    "id": "eyqm8jix0d",
+    "value": "ovo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ovo"
+  },
+  {
+    "id": "ezptfww9pg",
+    "value": "oxigenador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Oxigenador"
+  },
+  {
+    "id": "p8gshkqbtl",
+    "value": "pa",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Pá"
+  },
+  {
+    "id": "2pywikahae",
+    "value": "paliteiro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Paliteiro"
+  },
+  {
+    "id": "3r64geipzp",
+    "value": "pandeiro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Pandeiro"
+  },
+  {
+    "id": "csv26axxro",
+    "value": "panela",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Panela"
+  },
+  {
+    "id": "ms3w5on1jn",
+    "value": "pano",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Pano"
+  },
+  {
+    "id": "tzqo48nb9n",
+    "value": "papel",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Papel"
+  },
+  {
+    "id": "icmtn3jwx4",
+    "value": "parafuso",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Parafuso"
+  },
+  {
+    "id": "vp5johvqsu",
+    "value": "paraquedas",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Paraquedas"
+  },
+  {
+    "id": "tv2sthkhem",
+    "value": "piano",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Piano"
+  },
+  {
+    "id": "4pyfgk5k1i",
+    "value": "picareta",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Picareta"
+  },
+  {
+    "id": "snzy64dc5n",
+    "value": "pinca",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Pinça"
+  },
+  {
+    "id": "2huby01d7o",
+    "value": "pincel",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Pincel"
+  },
+  {
+    "id": "4903tb7pu7",
+    "value": "pingente",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Pingente"
+  },
+  {
+    "id": "ns96gk8zum",
+    "value": "pistola",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Pistola"
+  },
+  {
+    "id": "yb4r2i6hf6",
+    "value": "placa",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Placa"
+  },
+  {
+    "id": "8bj1hc64m8",
+    "value": "pote",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Pote"
+  },
+  {
+    "id": "r0oh04c971",
+    "value": "prancha",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Prancha"
+  },
+  {
+    "id": "gqkefj4eih",
+    "value": "prateleira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Prateleira"
+  },
+  {
+    "id": "df89w7wpnv",
+    "value": "prato",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Prato"
+  },
+  {
+    "id": "a6b7rinhew",
+    "value": "pulseira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Pulseira"
+  },
+  {
+    "id": "8bwpem48vj",
+    "value": "quadriciclo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Quadriciclo"
+  },
+  {
+    "id": "898dpc74ul",
+    "value": "quadro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Quadro"
+  },
+  {
+    "id": "mm2zemw7kk",
+    "value": "quadro-negro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Quadro negro"
+  },
+  {
+    "id": "xqg9wijq0u",
+    "value": "quebra-cabeca",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Quebra-cabeça"
+  },
+  {
+    "id": "h5wx8dl72n",
+    "value": "quebra-nozes",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Quebra-nozes"
+  },
+  {
+    "id": "vv7rh2jhae",
+    "value": "queijeira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Queijeira"
+  },
+  {
+    "id": "sbjstpryxh",
+    "value": "quepe",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Quepe"
+  },
+  {
+    "id": "fln39j2iap",
+    "value": "quimono",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Quimono"
+  },
+  {
+    "id": "3qcdit7uom",
+    "value": "radio",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Rádio"
+  },
+  {
+    "id": "mvoa5iedbp",
+    "value": "ralador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ralador"
+  },
+  {
+    "id": "x9s2zcgzmy",
+    "value": "ralo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ralo"
+  },
+  {
+    "id": "3hpdzbg2dk",
+    "value": "raquete",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Raquete"
+  },
+  {
+    "id": "n2znarbmrn",
+    "value": "ratoeira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ratoeira"
+  },
+  {
+    "id": "muxjrvq2w1",
+    "value": "reco-reco",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Reco-reco"
+  },
+  {
+    "id": "yntjp0bib9",
+    "value": "rede",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Rede"
+  },
+  {
+    "id": "fzjmc5pq48",
+    "value": "regua",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Régua"
+  },
+  {
+    "id": "kufky0r2ai",
+    "value": "relogio",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Relógio"
+  },
+  {
+    "id": "iss9r5g9it",
+    "value": "remo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Remo"
+  },
+  {
+    "id": "h8ik2sp23e",
+    "value": "retrovisor",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Retrovisor"
+  },
+  {
+    "id": "drg3y8k986",
+    "value": "revista",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Revista"
+  },
+  {
+    "id": "uzs2ju80po",
+    "value": "revolver",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Revólver"
+  },
+  {
+    "id": "h96wee2ei8",
+    "value": "rimel",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Rímel"
+  },
+  {
+    "id": "egauzywcok",
+    "value": "roda",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Roda"
+  },
+  {
+    "id": "jyad81jvw4",
+    "value": "rodo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Rodo"
+  },
+  {
+    "id": "ua2wbim3zh",
+    "value": "rolamento",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Rolamento"
+  },
+  {
+    "id": "ik6pkyruhh",
+    "value": "roleta",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Roleta"
+  },
+  {
+    "id": "ip6dc9cgxh",
+    "value": "rolha",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Rolha"
+  },
+  {
+    "id": "ht7ddbm769",
+    "value": "rolo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Rolo"
+  },
+  {
+    "id": "xouupjkh7w",
+    "value": "sabonete",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Sabonete"
+  },
+  {
+    "id": "5v6iy31djr",
+    "value": "saca-rolhas",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Saca-rolhas"
+  },
+  {
+    "id": "j20d7q3nf7",
+    "value": "sacola",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Sacola"
+  },
+  {
+    "id": "s8t3muac5d",
+    "value": "saleiro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Saleiro"
+  },
+  {
+    "id": "lxqc1s9aep",
+    "value": "sandalia",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Sandália"
+  },
+  {
+    "id": "23pnc6gu1g",
+    "value": "sanfona",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Sanfona"
+  },
+  {
+    "id": "q4fahz3a36",
+    "value": "sapato",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Sapato"
+  },
+  {
+    "id": "f0pxlm3qae",
+    "value": "saxofone",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Saxofone"
+  },
+  {
+    "id": "bmd3hbx4to",
+    "value": "scanner",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Scanner"
+  },
+  {
+    "id": "b6xf3ooc8m",
+    "value": "secador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Secador"
+  },
+  {
+    "id": "i41iq9zbp8",
+    "value": "selim",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Selim"
+  },
+  {
+    "id": "970lizmnvb",
+    "value": "seringa",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Seringa"
+  },
+  {
+    "id": "rbmjgsvht8",
+    "value": "serpentina",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Serpentina"
+  },
+  {
+    "id": "n94ucw42u3",
+    "value": "serrote",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Serrote"
+  },
+  {
+    "id": "c1elyll7sh",
+    "value": "sino",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Sino"
+  },
+  {
+    "id": "yha070qjhb",
+    "value": "sirene",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Sirene"
+  },
+  {
+    "id": "twgtvapzok",
+    "value": "skate",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Skate"
+  },
+  {
+    "id": "4s7bj2nrci",
+    "value": "sofa",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Sofá"
+  },
+  {
+    "id": "ivibjn8weh",
+    "value": "sombrinha",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Sombrinha"
+  },
+  {
+    "id": "56iifr40ii",
+    "value": "spray",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Spray"
+  },
+  {
+    "id": "ookssadrvp",
+    "value": "tabua",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Tábua"
+  },
+  {
+    "id": "7quxulfwlh",
+    "value": "tabuleiro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Tabuleiro"
+  },
+  {
+    "id": "35e2szilfv",
+    "value": "taca",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Taça"
+  },
+  {
+    "id": "p1u3p5klcj",
+    "value": "tamanco",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Tamanco"
+  },
+  {
+    "id": "8p6m89m76d",
+    "value": "tambor",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Tambor"
+  },
+  {
+    "id": "nhyavxtb0e",
+    "value": "tampa",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Tampa"
+  },
+  {
+    "id": "geuc26b0kk",
+    "value": "teclado",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Teclado"
+  },
+  {
+    "id": "rulxnoks8u",
+    "value": "telefone",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Telefone"
+  },
+  {
+    "id": "o9rzqi2hqg",
+    "value": "telescopio",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Telescópio"
+  },
+  {
+    "id": "f6nkeqrtie",
+    "value": "televisao",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Televisão"
+  },
+  {
+    "id": "vuphei8ado",
+    "value": "telha",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Telha"
+  },
+  {
+    "id": "r3g9awpnwa",
+    "value": "tenis",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Tênis"
+  },
+  {
+    "id": "ncouctsmyy",
+    "value": "termometro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Termômetro"
+  },
+  {
+    "id": "dtwub8u5tf",
+    "value": "tesoura",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Tesoura"
+  },
+  {
+    "id": "xam16cdbwc",
+    "value": "tigela",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Tigela"
+  },
+  {
+    "id": "17x3sdbjnb",
+    "value": "tijolo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Tijolo"
+  },
+  {
+    "id": "il3rev599n",
+    "value": "touca",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Touca"
+  },
+  {
+    "id": "uuwun1lhdg",
+    "value": "trampolim",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Trampolim"
+  },
+  {
+    "id": "2dfykn0ji9",
+    "value": "travesseiro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Travesseiro"
+  },
+  {
+    "id": "anh6fm8bsm",
+    "value": "trofeu",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Troféu"
+  },
+  {
+    "id": "54gqhzanws",
+    "value": "ukulele",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ukulele"
+  },
+  {
+    "id": "9i5rtpncx8",
+    "value": "ultraleve",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ultraleve"
+  },
+  {
+    "id": "zjpqtt3yv8",
+    "value": "umbral",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Umbral"
+  },
+  {
+    "id": "fusqojcirt",
+    "value": "umidificador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Umidificador"
+  },
+  {
+    "id": "k9acymf37p",
+    "value": "unha-postica",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Unha postiça"
+  },
+  {
+    "id": "jk3puh7w5a",
+    "value": "uniforme",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Uniforme"
+  },
+  {
+    "id": "dr6q0aovna",
+    "value": "urinol",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Urinol"
+  },
+  {
+    "id": "bntxi6eudo",
+    "value": "urna",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Urna"
+  },
+  {
+    "id": "d4684ek84k",
+    "value": "urso-de-pelucia",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Urso de pelúcia"
+  },
+  {
+    "id": "vgzc4lql49",
+    "value": "valvula",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Válvula"
+  },
+  {
+    "id": "yhueat4a7l",
+    "value": "vaporizador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Vaporizador"
+  },
+  {
+    "id": "o4mwuhc6wj",
+    "value": "vara",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Vara"
+  },
+  {
+    "id": "7s7kbm20st",
+    "value": "varal",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Varal"
+  },
+  {
+    "id": "mxvrqischo",
+    "value": "vareta",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Vareta"
+  },
+  {
+    "id": "okefde1gz1",
+    "value": "varinha",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Varinha"
+  },
+  {
+    "id": "ojiwkfyy48",
+    "value": "vaso",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Vaso"
+  },
+  {
+    "id": "zpxdap9ecg",
+    "value": "vassoura",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "vassoura"
+  },
+  {
+    "id": "sb3wmb2kob",
+    "value": "vela",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Vela"
+  },
+  {
+    "id": "q3100oezf8",
+    "value": "velocimetro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Velocímetro"
+  },
+  {
+    "id": "v4tw7wtr1b",
+    "value": "ventilador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Ventilador"
+  },
+  {
+    "id": "8drbz465t8",
+    "value": "video",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Vídeo"
+  },
+  {
+    "id": "v5ym3gam6l",
+    "value": "vidro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Vidro"
+  },
+  {
+    "id": "m2x6ossktp",
+    "value": "viola",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Viola"
+  },
+  {
+    "id": "hpdvx44ix5",
+    "value": "violao",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Violão"
+  },
+  {
+    "id": "b266dmbz0p",
+    "value": "violino",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Violino"
+  },
+  {
+    "id": "zedawypk1r",
+    "value": "violoncelo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Violoncelo"
+  },
+  {
+    "id": "spw0rda5vq",
+    "value": "viseira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Viseira"
+  },
+  {
+    "id": "oydu3kqjjx",
+    "value": "vitrola",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Vitrola"
+  },
+  {
+    "id": "43pxjguz8t",
+    "value": "volante",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Volante"
+  },
+  {
+    "id": "fglex2x9vm",
+    "value": "wafer",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Wafer"
+  },
+  {
+    "id": "zpi0e03hcg",
+    "value": "walkie-talkie",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Walkie-talkie"
+  },
+  {
+    "id": "ujnja3ek68",
+    "value": "walkman",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Walkman"
+  },
+  {
+    "id": "ltzvbl5kmm",
+    "value": "webcam",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Webcam"
+  },
+  {
+    "id": "lzlvhhrgjs",
+    "value": "xadrez",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Xadrez"
+  },
+  {
+    "id": "vdwhzfub6o",
+    "value": "xale",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Xale"
+  },
+  {
+    "id": "z6e21zevb4",
+    "value": "xampu",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Xampu"
+  },
+  {
+    "id": "rgwh5u8i6m",
+    "value": "xarope",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Xarope"
+  },
+  {
+    "id": "n1ivj5bjxc",
+    "value": "xequere",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Xequerê"
+  },
+  {
+    "id": "coimtivhkh",
+    "value": "xicara",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Xícara"
+  },
+  {
+    "id": "fl0axfxifo",
+    "value": "xilofone",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Xilofone"
+  },
+  {
+    "id": "qxnjdmie2k",
+    "value": "xilogravura",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Xilogravura"
+  },
+  {
+    "id": "4lrv9nqkja",
+    "value": "zabumba",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Zabumba"
+  },
+  {
+    "id": "s8e193x7nk",
+    "value": "zambe",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Zambê"
+  },
+  {
+    "id": "cg8i42cl54",
+    "value": "zarabatana",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Zarabatana"
+  },
+  {
+    "id": "uxgtka8b9k",
+    "value": "zinco",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Zinco"
+  },
+  {
+    "id": "fpcljdiymg",
+    "value": "ziper",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Zíper"
+  },
+  {
+    "id": "4mrqabjttj",
+    "value": "acucareiro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Açucareiro"
+  },
+  {
+    "id": "6k6av5picp",
+    "value": "ancora",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Âncora"
+  },
+  {
+    "id": "klk29t7ofy",
+    "value": "aro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Aro"
+  },
+  {
+    "id": "lyg1unclkd",
+    "value": "azulejo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Azulejo"
+  },
+  {
+    "id": "991gshrhsm",
+    "value": "alicate",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Alicate"
+  },
+  {
+    "id": "pw2vi5tiyj",
+    "value": "bide",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Bidê"
+  },
+  {
+    "id": "yejww60fv9",
+    "value": "bigorna",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Bigorna"
+  },
+  {
+    "id": "jzy0obg9qc",
+    "value": "biruta",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Biruta"
+  },
+  {
+    "id": "mh1eizsnxs",
+    "value": "bisturi",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Bisturi"
+  },
+  {
+    "id": "b1gl7m1g8m",
+    "value": "calice",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Cálice"
+  },
+  {
+    "id": "mhnfnw3bxd",
+    "value": "cajado",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Cajado"
+  },
+  {
+    "id": "l28805imcb",
+    "value": "castical",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Castiçal"
+  },
+  {
+    "id": "lj6m16ak7t",
+    "value": "cata-vento",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Cata-vento"
+  },
+  {
+    "id": "5q8vpdr4uw",
+    "value": "dardo",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Dardo"
+  },
+  {
+    "id": "c4zobvnnj5",
+    "value": "dedal",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Dedal"
+  },
+  {
+    "id": "d9eqve45tk",
+    "value": "desfibrilador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Desfibrilador"
+  },
+  {
+    "id": "tn4r83ke6i",
+    "value": "diadema",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Diadema"
+  },
+  {
+    "id": "k9nildaawf",
+    "value": "diapasao",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Diapasão"
+  },
+  {
+    "id": "vlmlswhb6d",
+    "value": "disquete",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Disquete"
+  },
+  {
+    "id": "5h34w1oz09",
+    "value": "diva",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Divã"
+  },
+  {
+    "id": "6eck8dv6pg",
+    "value": "escumadeira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Escumadeira"
+  },
+  {
+    "id": "7lyela9fqt",
+    "value": "esquadro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Esquadro"
+  },
+  {
+    "id": "e3hha8pkle",
+    "value": "estetoscopio",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Estetoscópio"
+  },
+  {
+    "id": "aankje2eos",
+    "value": "fax",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Fax"
+  },
+  {
+    "id": "ijdnk5ht18",
+    "value": "gangorra",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Gangorra"
+  },
+  {
+    "id": "cf4jlb158p",
+    "value": "gramofone",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Gramofone"
+  },
+  {
+    "id": "zfyvy93ia7",
+    "value": "gargantilha",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Gargantilha"
+  },
+  {
+    "id": "ziu9scgbau",
+    "value": "gorro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Gorro"
+  },
+  {
+    "id": "qrblv4uy1c",
+    "value": "guarda-sol",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Guarda-sol"
+  },
+  {
+    "id": "nchughr33d",
+    "value": "guilhotina",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Guilhotina"
+  },
+  {
+    "id": "l89nzqf0y4",
+    "value": "haltere",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Haltere"
+  },
+  {
+    "id": "ibkjs0b9qj",
+    "value": "haste",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Haste"
+  },
+  {
+    "id": "iz4pfv1l3w",
+    "value": "heliostato",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Helióstato"
+  },
+  {
+    "id": "653k02mllj",
+    "value": "hidrometro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Hidrômetro"
+  },
+  {
+    "id": "wbqn44bbcn",
+    "value": "higrometro",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Higrômetro"
+  },
+  {
+    "id": "ohdtc9o6jq",
+    "value": "hostia",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Hóstia"
+  },
+  {
+    "id": "s03m2uc95n",
+    "value": "incenso",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Incenso"
+  },
+  {
+    "id": "6s94iiqqsn",
+    "value": "inalador",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Inalador"
+  },
+  {
+    "id": "u76dsscmeq",
+    "value": "isopor",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Isopor"
+  },
+  {
+    "id": "nrx6dxec8u",
+    "value": "caixa-de-isopor",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Caixa de isopor"
+  },
+  {
+    "id": "2lovmwnz7e",
+    "value": "jangada",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Jangada"
+  },
+  {
+    "id": "qh3dy87elb",
+    "value": "jardineira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Jardineira"
+  },
+  {
+    "id": "n4yxoaaj6k",
+    "value": "joelheira",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Joelheira"
+  },
+  {
+    "id": "858z0fgv9j",
+    "value": "kart",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Kart"
+  },
+  {
+    "id": "v4abt8oexe",
+    "value": "kilt",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Kilt"
+  },
+  {
+    "id": "1mucu3ue8i",
+    "value": "lantejoula",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lantejoula"
+  },
+  {
+    "id": "q2000vcxg9",
+    "value": "lixa",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lixa"
+  },
+  {
+    "id": "sz8o4lyyf9",
+    "value": "lustre",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Lustre"
+  },
+  {
+    "id": "7s6rlug9nr",
+    "value": "macarico",
+    "theme": "padrao",
+    "type": "objeto",
+    "item": "Maçarico"
+  },
+  {
+    "id": "jforjrlgbt",
+    "value": "ir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ir"
+  },
+  {
+    "id": "84s43o9rsp",
+    "value": "ir-embora",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ir embora"
+  },
+  {
+    "id": "664xsqmi68",
+    "value": "ir-a-pe",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ir a pé"
+  },
+  {
+    "id": "eyvhsfoafd",
+    "value": "ser-feliz",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ser Feliz"
+  },
+  {
+    "id": "skdhjw8jhg",
+    "value": "fazer-um-bolo",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Fazer um bolo"
+  },
+  {
+    "id": "ypun3vmwkb",
+    "value": "fazer-bem-feito",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Fazer bem feito"
+  },
+  {
+    "id": "rlgcgct9ar",
+    "value": "verter",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Verter"
+  },
+  {
+    "id": "2ktwsp7cqe",
+    "value": "vir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Vir"
+  },
+  {
+    "id": "zg48qe8ciq",
+    "value": "estar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Estar"
+  },
+  {
+    "id": "c15hxpmaag",
+    "value": "amar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Amar"
+  },
+  {
+    "id": "747hvh86il",
+    "value": "poder",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Poder"
+  },
+  {
+    "id": "1941hnf52j",
+    "value": "dar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Dar"
+  },
+  {
+    "id": "e0f6x2zywg",
+    "value": "haver",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Haver"
+  },
+  {
+    "id": "itp8mlwakg",
+    "value": "comer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Comer"
+  },
+  {
+    "id": "sjozmorl4d",
+    "value": "por",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pôr"
+  },
+  {
+    "id": "4p74qkrn9a",
+    "value": "querer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Querer"
+  },
+  {
+    "id": "4xdpk1ypkh",
+    "value": "partir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Partir"
+  },
+  {
+    "id": "210lcmkq8n",
+    "value": "falar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Falar"
+  },
+  {
+    "id": "73ygja4rui",
+    "value": "cantar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Cantar"
+  },
+  {
+    "id": "jjaiqpx09z",
+    "value": "estudar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Estudar"
+  },
+  {
+    "id": "yxepdy5shp",
+    "value": "trazer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Trazer"
+  },
+  {
+    "id": "beuz6zstte",
+    "value": "dizer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Dizer"
+  },
+  {
+    "id": "wu9t7mny8h",
+    "value": "sair",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sair"
+  },
+  {
+    "id": "pymdr01ikl",
+    "value": "ler",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ler"
+  },
+  {
+    "id": "o997t5pujj",
+    "value": "rir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Rir"
+  },
+  {
+    "id": "e1w5gcvbmu",
+    "value": "saber",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Saber"
+  },
+  {
+    "id": "8iba86bj7t",
+    "value": "correr",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Correr"
+  },
+  {
+    "id": "9hnrw7hl6d",
+    "value": "vender",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Vender"
+  },
+  {
+    "id": "voxvictuxi",
+    "value": "dormir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Dormir"
+  },
+  {
+    "id": "0jumg1dck8",
+    "value": "beber",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Beber"
+  },
+  {
+    "id": "tw9wm4hmjj",
+    "value": "pedir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pedir"
+  },
+  {
+    "id": "kiwmlv3kl4",
+    "value": "escrever",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Escrever"
+  },
+  {
+    "id": "jftld0tdqj",
+    "value": "andar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Andar"
+  },
+  {
+    "id": "kw7m8g5c39",
+    "value": "sorrir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sorrir"
+  },
+  {
+    "id": "g5801mt2zg",
+    "value": "ouvir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ouvir"
+  },
+  {
+    "id": "q107cxa1ti",
+    "value": "sentir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sentir"
+  },
+  {
+    "id": "46ix087nlb",
+    "value": "agir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Agir"
+  },
+  {
+    "id": "48vhko5pjc",
+    "value": "chegar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Chegar"
+  },
+  {
+    "id": "bhj6t8nc3l",
+    "value": "ficar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ficar"
+  },
+  {
+    "id": "5z0jlpvp5o",
+    "value": "gostar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Gostar"
+  },
+  {
+    "id": "dmazw8pcfa",
+    "value": "brincar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Brincar"
+  },
+  {
+    "id": "uau2o28cvf",
+    "value": "abrir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Abrir"
+  },
+  {
+    "id": "5vhs8s7uzl",
+    "value": "caber",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Caber"
+  },
+  {
+    "id": "6hph5or01o",
+    "value": "viver",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Viver"
+  },
+  {
+    "id": "j5z944dn5z",
+    "value": "conseguir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Conseguir"
+  },
+  {
+    "id": "7l8moe4rug",
+    "value": "comprar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Comprar"
+  },
+  {
+    "id": "ijvidb5ngj",
+    "value": "jogar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Jogar"
+  },
+  {
+    "id": "j3xti16e0s",
+    "value": "corrigir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Corrigir"
+  },
+  {
+    "id": "7npa4sy87o",
+    "value": "cair",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Cair"
+  },
+  {
+    "id": "jmifwm2s7k",
+    "value": "manter",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Manter"
+  },
+  {
+    "id": "2ccfmeg9ee",
+    "value": "perder",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Perder"
+  },
+  {
+    "id": "nzncaagozt",
+    "value": "receber",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Receber"
+  },
+  {
+    "id": "oy61ajcxoa",
+    "value": "pensar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pensar"
+  },
+  {
+    "id": "bx9wencak3",
+    "value": "viajar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Viajar"
+  },
+  {
+    "id": "6c5x98699e",
+    "value": "dancar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Dançar"
+  },
+  {
+    "id": "xlg70nj2au",
+    "value": "passar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Passar"
+  },
+  {
+    "id": "dacl0pbdga",
+    "value": "conhecer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Conhecer"
+  },
+  {
+    "id": "zautnb3f06",
+    "value": "assistir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Assistir"
+  },
+  {
+    "id": "lu944nwwcl",
+    "value": "comecar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Começar"
+  },
+  {
+    "id": "1cfcgp1yjd",
+    "value": "aprender",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Aprender"
+  },
+  {
+    "id": "n6k81qd8be",
+    "value": "intervir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Intervir"
+  },
+  {
+    "id": "4tuktqpxnw",
+    "value": "encontrar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Encontrar"
+  },
+  {
+    "id": "27hppkal4m",
+    "value": "crer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Crer"
+  },
+  {
+    "id": "up7o8g5vf6",
+    "value": "seguir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Seguir"
+  },
+  {
+    "id": "gf2migmfcv",
+    "value": "trabalhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Trabalhar"
+  },
+  {
+    "id": "7y4ijjzwuc",
+    "value": "dividir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Dividir"
+  },
+  {
+    "id": "unpy9g8grq",
+    "value": "levar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Levar"
+  },
+  {
+    "id": "8el19gsm19",
+    "value": "chamar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Chamar"
+  },
+  {
+    "id": "bx1uaxu99z",
+    "value": "dever",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Dever"
+  },
+  {
+    "id": "4chlkmywst",
+    "value": "deixar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Deixar"
+  },
+  {
+    "id": "sfnq1tpde9",
+    "value": "precisar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Precisar"
+  },
+  {
+    "id": "6bfusa1u0s",
+    "value": "voar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Voar"
+  },
+  {
+    "id": "pngvneukea",
+    "value": "voltar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Voltar"
+  },
+  {
+    "id": "oyph5utrkv",
+    "value": "subir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Subir"
+  },
+  {
+    "id": "bnvej3waqe",
+    "value": "pular",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pular"
+  },
+  {
+    "id": "qt7mn4l54j",
+    "value": "pular-corda",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pular corda"
+  },
+  {
+    "id": "ca6hno91wv",
+    "value": "pular-da-ponte",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pular da ponte"
+  },
+  {
+    "id": "jwxoobqd6h",
+    "value": "expor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Expor"
+  },
+  {
+    "id": "nidj809n2s",
+    "value": "passear",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Passear"
+  },
+  {
+    "id": "4insgwwx6t",
+    "value": "entender",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Entender"
+  },
+  {
+    "id": "fkrvgnaudt",
+    "value": "nascer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Nascer"
+  },
+  {
+    "id": "iaw0st0yj9",
+    "value": "fugir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Fugir"
+  },
+  {
+    "id": "2gu79a3n2a",
+    "value": "lembrar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Lembrar"
+  },
+  {
+    "id": "w4rgpeb5qb",
+    "value": "compor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Compor"
+  },
+  {
+    "id": "toj0vx3fg5",
+    "value": "usar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Usar"
+  },
+  {
+    "id": "8p54w23plf",
+    "value": "olhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Olhar"
+  },
+  {
+    "id": "cqow7matfq",
+    "value": "parar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Parar"
+  },
+  {
+    "id": "v1693l8tr2",
+    "value": "achar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Achar"
+  },
+  {
+    "id": "beyz8pl6vo",
+    "value": "dirigir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Dirigir"
+  },
+  {
+    "id": "cwqkqyyy2j",
+    "value": "reaver",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Reaver"
+  },
+  {
+    "id": "n52athr71g",
+    "value": "valer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Valer"
+  },
+  {
+    "id": "kep5vqct7d",
+    "value": "medir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Medir"
+  },
+  {
+    "id": "bm60gq5ixs",
+    "value": "esquecer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Esquecer"
+  },
+  {
+    "id": "0mde5qc5tc",
+    "value": "acordar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Acordar"
+  },
+  {
+    "id": "795hnkhxou",
+    "value": "colocar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Colocar"
+  },
+  {
+    "id": "whpgwq3c6v",
+    "value": "morar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Morar"
+  },
+  {
+    "id": "fyuqvcx8vi",
+    "value": "proteger",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Proteger"
+  },
+  {
+    "id": "ka74gzprcr",
+    "value": "fingir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Fingir"
+  },
+  {
+    "id": "wgllc9cgl9",
+    "value": "tossir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Tossir"
+  },
+  {
+    "id": "f5fsfnc39i",
+    "value": "propor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Propor"
+  },
+  {
+    "id": "t0e5s8ca0r",
+    "value": "esperar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Esperar"
+  },
+  {
+    "id": "0eq5qff8aj",
+    "value": "ganhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ganhar"
+  },
+  {
+    "id": "vvtr4iifjs",
+    "value": "descer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Descer"
+  },
+  {
+    "id": "pyq2hqiysf",
+    "value": "conjugar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Conjugar"
+  },
+  {
+    "id": "ipy9uvjj3j",
+    "value": "mexer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Mexer"
+  },
+  {
+    "id": "desgm6uj4y",
+    "value": "cumprir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Cumprir"
+  },
+  {
+    "id": "p9rv2dfb4l",
+    "value": "morrer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Morrer"
+  },
+  {
+    "id": "o4bu85ifzi",
+    "value": "entrar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Entrar"
+  },
+  {
+    "id": "s722t73y6l",
+    "value": "requerer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Requerer"
+  },
+  {
+    "id": "zw000scvvb",
+    "value": "conversar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Conversar"
+  },
+  {
+    "id": "kddd11t2ou",
+    "value": "contar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Contar"
+  },
+  {
+    "id": "7ttkux9d3c",
+    "value": "tomar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Tomar"
+  },
+  {
+    "id": "t6g2ywp0iz",
+    "value": "pegar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pegar"
+  },
+  {
+    "id": "9fc9rogp9d",
+    "value": "bater",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Bater"
+  },
+  {
+    "id": "3xjprofa9d",
+    "value": "possuir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Possuir"
+  },
+  {
+    "id": "qz4z0fzeaj",
+    "value": "mandar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Mandar"
+  },
+  {
+    "id": "horqjdm75k",
+    "value": "chorar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Chorar"
+  },
+  {
+    "id": "gepwz8a89j",
+    "value": "ajudar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ajudar"
+  },
+  {
+    "id": "agalrrne6e",
+    "value": "imprimir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Imprimir"
+  },
+  {
+    "id": "z5c3k7mgt2",
+    "value": "desejar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Desejar"
+  },
+  {
+    "id": "4u427hp6kz",
+    "value": "lavar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Lavar"
+  },
+  {
+    "id": "sauk2dxy8f",
+    "value": "colorir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Colorir"
+  },
+  {
+    "id": "mllavl03qh",
+    "value": "continuar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Continuar"
+  },
+  {
+    "id": "mfgd830tjh",
+    "value": "chover",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Chover"
+  },
+  {
+    "id": "oyvj5oobjc",
+    "value": "descobrir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Descobrir"
+  },
+  {
+    "id": "fbvilassih",
+    "value": "doer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Doer"
+  },
+  {
+    "id": "64u3dwii2b",
+    "value": "sumir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sumir"
+  },
+  {
+    "id": "oeeo9p73je",
+    "value": "preferir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Preferir"
+  },
+  {
+    "id": "6kisau3aqu",
+    "value": "vestir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Vestir"
+  },
+  {
+    "id": "dcq6lqlkm6",
+    "value": "sonhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sonhar"
+  },
+  {
+    "id": "lo7wltbkr2",
+    "value": "acabar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Acabar"
+  },
+  {
+    "id": "9rvn6n8dbo",
+    "value": "procurar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Procurar"
+  },
+  {
+    "id": "7tqgvbdzac",
+    "value": "atender",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Atender"
+  },
+  {
+    "id": "uf7g3wg8zq",
+    "value": "existir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Existir"
+  },
+  {
+    "id": "z135npvboy",
+    "value": "doar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Doar"
+  },
+  {
+    "id": "gvknkagw38",
+    "value": "nadar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Nadar"
+  },
+  {
+    "id": "wqo27s883g",
+    "value": "dispor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Dispor"
+  },
+  {
+    "id": "9p2k0gix88",
+    "value": "conter",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Conter"
+  },
+  {
+    "id": "ze8djwm989",
+    "value": "divertir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Divertir"
+  },
+  {
+    "id": "h4r4e1iukf",
+    "value": "divorciar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Divorciar"
+  },
+  {
+    "id": "45pp724txe",
+    "value": "decidir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Decidir"
+  },
+  {
+    "id": "lljvllke88",
+    "value": "prever",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Prever"
+  },
+  {
+    "id": "bhj4m39ixa",
+    "value": "caminhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Caminhar"
+  },
+  {
+    "id": "a7d0jnd567",
+    "value": "prover",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Prover"
+  },
+  {
+    "id": "8zqavkaevr",
+    "value": "pagar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pagar"
+  },
+  {
+    "id": "7iqyloxp28",
+    "value": "mudar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Mudar"
+  },
+  {
+    "id": "xjbusmw3gt",
+    "value": "acontecer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Acontecer"
+  },
+  {
+    "id": "5jdk8cf7t7",
+    "value": "construir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Construir"
+  },
+  {
+    "id": "d8r5o9e3ql",
+    "value": "mentir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Mentir"
+  },
+  {
+    "id": "n5ph06ls9e",
+    "value": "suar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Suar"
+  },
+  {
+    "id": "2cye662nh9",
+    "value": "entreter",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Entreter"
+  },
+  {
+    "id": "o7rik5lwnp",
+    "value": "almocar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Almoçar"
+  },
+  {
+    "id": "d97dysrnmc",
+    "value": "escolher",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Escolher"
+  },
+  {
+    "id": "2njh1qjg6m",
+    "value": "desistir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Desistir"
+  },
+  {
+    "id": "tho4sej9yw",
+    "value": "fechar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Fechar"
+  },
+  {
+    "id": "4wep7mnuzl",
+    "value": "participar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Participar"
+  },
+  {
+    "id": "3a9807ey6k",
+    "value": "falir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Falir"
+  },
+  {
+    "id": "otv1owgykl",
+    "value": "avisar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Avisar"
+  },
+  {
+    "id": "y6tare43c1",
+    "value": "responder",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Responder"
+  },
+  {
+    "id": "cfukhcuj5q",
+    "value": "realizar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Realizar"
+  },
+  {
+    "id": "i4m0b22aor",
+    "value": "encher",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Encher"
+  },
+  {
+    "id": "4b2rcbnxwj",
+    "value": "crescer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Crescer"
+  },
+  {
+    "id": "h8ma8bgcuu",
+    "value": "vencer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Vencer"
+  },
+  {
+    "id": "2d3w3nqbki",
+    "value": "parecer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Parecer"
+  },
+  {
+    "id": "cr06ye6gr9",
+    "value": "tornar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Tornar"
+  },
+  {
+    "id": "ik3knabg26",
+    "value": "enviar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Enviar"
+  },
+  {
+    "id": "nv7h7wzlzn",
+    "value": "servir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Servir"
+  },
+  {
+    "id": "74e9n4ensn",
+    "value": "permitir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Permitir"
+  },
+  {
+    "id": "x34o91or8e",
+    "value": "sentar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sentar"
+  },
+  {
+    "id": "f75q37feir",
+    "value": "aderir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Aderir"
+  },
+  {
+    "id": "093mjlu48a",
+    "value": "perdoar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Perdoar"
+  },
+  {
+    "id": "0muevexapc",
+    "value": "ligar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ligar"
+  },
+  {
+    "id": "n07exsn3q5",
+    "value": "buscar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Buscar"
+  },
+  {
+    "id": "wf6dfqgbe4",
+    "value": "feder",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Feder"
+  },
+  {
+    "id": "ilmqjonssj",
+    "value": "terminar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Terminar"
+  },
+  {
+    "id": "v3qc9qtvgx",
+    "value": "sofrer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sofrer"
+  },
+  {
+    "id": "p5kzc96nii",
+    "value": "apresentar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Apresentar"
+  },
+  {
+    "id": "0bed9iv3aw",
+    "value": "tirar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Tirar"
+  },
+  {
+    "id": "ux4xrnmifu",
+    "value": "ferir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ferir"
+  },
+  {
+    "id": "gfn5br1amr",
+    "value": "casar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Casar"
+  },
+  {
+    "id": "nnj9g7189l",
+    "value": "adquirir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Adquirir"
+  },
+  {
+    "id": "pfzbtrkbob",
+    "value": "agradecer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Agradecer"
+  },
+  {
+    "id": "enzwxr8fvd",
+    "value": "convidar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Convidar"
+  },
+  {
+    "id": "on4rcm8hxi",
+    "value": "entregar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Entregar"
+  },
+  {
+    "id": "vgqt1y65ur",
+    "value": "levantar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Levantar"
+  },
+  {
+    "id": "fwwn27fzlw",
+    "value": "precaver",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Precaver"
+  },
+  {
+    "id": "mgj84y6k94",
+    "value": "impor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Impor"
+  },
+  {
+    "id": "4rytssqaua",
+    "value": "perceber",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Perceber"
+  },
+  {
+    "id": "w4k0i9fn1p",
+    "value": "adequar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Adequar"
+  },
+  {
+    "id": "0f4w8blr8q",
+    "value": "rever",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Rever"
+  },
+  {
+    "id": "vbeghlzl4n",
+    "value": "criar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Criar"
+  },
+  {
+    "id": "hclq8ra9zg",
+    "value": "repor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Repor"
+  },
+  {
+    "id": "5olkpzyvyd",
+    "value": "perguntar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Perguntar"
+  },
+  {
+    "id": "7fl8pem874",
+    "value": "polir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Polir"
+  },
+  {
+    "id": "6lgn1i5vvp",
+    "value": "informar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Informar"
+  },
+  {
+    "id": "35upijjq3r",
+    "value": "aceitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Aceitar"
+  },
+  {
+    "id": "w9rslizspm",
+    "value": "ensinar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ensinar"
+  },
+  {
+    "id": "woyflb8zbm",
+    "value": "tentar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Tentar"
+  },
+  {
+    "id": "szcxk0peor",
+    "value": "mostrar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Mostrar"
+  },
+  {
+    "id": "efsix8hohc",
+    "value": "beijar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Beijar"
+  },
+  {
+    "id": "wy31fe0htf",
+    "value": "deter",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Deter"
+  },
+  {
+    "id": "diiy560n5j",
+    "value": "aproveitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Aproveitar"
+  },
+  {
+    "id": "onzy4ov7tv",
+    "value": "odiar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Odiar"
+  },
+  {
+    "id": "m4wynj4a91",
+    "value": "respeitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Respeitar"
+  },
+  {
+    "id": "4rx7m1r7w8",
+    "value": "pentear",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pentear"
+  },
+  {
+    "id": "y7z3gmsgzo",
+    "value": "mover",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Mover"
+  },
+  {
+    "id": "elqg962mr9",
+    "value": "conferir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Conferir"
+  },
+  {
+    "id": "cw2uh9iauo",
+    "value": "enjoar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Enjoar"
+  },
+  {
+    "id": "8fmhsxmwwm",
+    "value": "alegrar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Alegrar"
+  },
+  {
+    "id": "b98yhj46x4",
+    "value": "optar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Optar"
+  },
+  {
+    "id": "9fdml6miek",
+    "value": "melhorar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Melhorar"
+  },
+  {
+    "id": "za1agz0i5l",
+    "value": "lamber",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Lamber"
+  },
+  {
+    "id": "utsh1mvc46",
+    "value": "aplicar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Aplicar"
+  },
+  {
+    "id": "hyw805i6a2",
+    "value": "perseguir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Perseguir"
+  },
+  {
+    "id": "hd3t4d7gcj",
+    "value": "advir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Advir"
+  },
+  {
+    "id": "enhtygys04",
+    "value": "atravessar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Atravessar"
+  },
+  {
+    "id": "o9m2x7uvbc",
+    "value": "completar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Completar"
+  },
+  {
+    "id": "hvqf1rp35o",
+    "value": "retornar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Retornar"
+  },
+  {
+    "id": "oqhd1u0skq",
+    "value": "representar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Representar"
+  },
+  {
+    "id": "pgda2zq4ti",
+    "value": "aplaudir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Aplaudir"
+  },
+  {
+    "id": "b5f2hcwu1i",
+    "value": "pretender",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pretender"
+  },
+  {
+    "id": "ypyw5izspk",
+    "value": "constituir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Constituir"
+  },
+  {
+    "id": "5s2kkebgp8",
+    "value": "basear",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Basear"
+  },
+  {
+    "id": "wq0kzk40v4",
+    "value": "demorar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Demorar"
+  },
+  {
+    "id": "awfr8zi9hu",
+    "value": "preencher",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Preencher"
+  },
+  {
+    "id": "fxby8pk3bt",
+    "value": "gerar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Gerar"
+  },
+  {
+    "id": "4s0rdzslsg",
+    "value": "proporcionar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Proporcionar"
+  },
+  {
+    "id": "1qigcmlcxc",
+    "value": "distribuir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Distribuir"
+  },
+  {
+    "id": "y2p0wnrdfj",
+    "value": "cheirar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Cheirar"
+  },
+  {
+    "id": "5mno7h3l8p",
+    "value": "apanhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Apanhar"
+  },
+  {
+    "id": "l09299n1ys",
+    "value": "soltar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Soltar"
+  },
+  {
+    "id": "c6v2wck78p",
+    "value": "inserir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Inserir"
+  },
+  {
+    "id": "by7e7l5dl2",
+    "value": "superar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Superar"
+  },
+  {
+    "id": "vhwgr56plp",
+    "value": "duvidar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Duvidar"
+  },
+  {
+    "id": "xvx4kckga8",
+    "value": "distinguir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Distinguir"
+  },
+  {
+    "id": "tj3o2ax86n",
+    "value": "assinar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Assinar"
+  },
+  {
+    "id": "j5shtlfalb",
+    "value": "banhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Banhar"
+  },
+  {
+    "id": "tnkrj2hbfl",
+    "value": "depor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Depor"
+  },
+  {
+    "id": "l4ybnmoopi",
+    "value": "apreciar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Apreciar"
+  },
+  {
+    "id": "nyhadvpk5w",
+    "value": "queimar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Queimar"
+  },
+  {
+    "id": "xr15bisoyq",
+    "value": "confirmar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Confirmar"
+  },
+  {
+    "id": "x42kvf5bds",
+    "value": "recear",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Recear"
+  },
+  {
+    "id": "o2xa93q50x",
+    "value": "saborear",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Saborear"
+  },
+  {
+    "id": "fjn6eiq6pj",
+    "value": "organizar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Organizar"
+  },
+  {
+    "id": "49fafi6xti",
+    "value": "focar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Focar"
+  },
+  {
+    "id": "qebazv7uul",
+    "value": "necessitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Necessitar"
+  },
+  {
+    "id": "bi71d264l9",
+    "value": "banir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Banir"
+  },
+  {
+    "id": "wup751hk8s",
+    "value": "identificar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Identificar"
+  },
+  {
+    "id": "anykxy7vh8",
+    "value": "cocar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Coçar"
+  },
+  {
+    "id": "27nl9s9gj3",
+    "value": "adicionar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Adicionar"
+  },
+  {
+    "id": "n5smnej8ba",
+    "value": "briga",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Briga"
+  },
+  {
+    "id": "rg90x87qpc",
+    "value": "rexplodir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Rexplodir"
+  },
+  {
+    "id": "ag022mly3m",
+    "value": "treinar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Treinar"
+  },
+  {
+    "id": "unjqjikvti",
+    "value": "assar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Assar"
+  },
+  {
+    "id": "hwogg446y7",
+    "value": "atribuir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Atribuir"
+  },
+  {
+    "id": "bp7ij1y4zc",
+    "value": "segurar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Segurar"
+  },
+  {
+    "id": "pwr7bg8vzp",
+    "value": "carregar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Carregar"
+  },
+  {
+    "id": "q287d6t4fi",
+    "value": "dedicar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Dedicar"
+  },
+  {
+    "id": "fvxig1l766",
+    "value": "postar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Postar"
+  },
+  {
+    "id": "aqimqtdu6q",
+    "value": "desaparecer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Desaparecer"
+  },
+  {
+    "id": "hupj574qg1",
+    "value": "admirar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Admirar"
+  },
+  {
+    "id": "sbxtvdkthj",
+    "value": "remediar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Remediar"
+  },
+  {
+    "id": "3fe8iwnvgr",
+    "value": "aumentar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Aumentar"
+  },
+  {
+    "id": "tyldjyworh",
+    "value": "fumar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Fumar"
+  },
+  {
+    "id": "d3oglby7jg",
+    "value": "desfazer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Desfazer"
+  },
+  {
+    "id": "b4q7tnrona",
+    "value": "erguer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Erguer"
+  },
+  {
+    "id": "s0a4vu1c6l",
+    "value": "traduzir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Traduzir"
+  },
+  {
+    "id": "vzqmnc6d3e",
+    "value": "pesquisar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pesquisar"
+  },
+  {
+    "id": "ylnwuwe7i9",
+    "value": "meter",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Meter"
+  },
+  {
+    "id": "3auyoxtt1p",
+    "value": "agradar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Agradar"
+  },
+  {
+    "id": "8x6h5fkg7h",
+    "value": "amanhecer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Amanhecer"
+  },
+  {
+    "id": "ny4tiofw3s",
+    "value": "acessar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Acessar"
+  },
+  {
+    "id": "t7htpg08vf",
+    "value": "louvar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Louvar"
+  },
+  {
+    "id": "d42vmztbi8",
+    "value": "arranjar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Arranjar"
+  },
+  {
+    "id": "oh72av617l",
+    "value": "pisar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Pisar"
+  },
+  {
+    "id": "xy08i5i5gf",
+    "value": "consertar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Consertar"
+  },
+  {
+    "id": "i5a11g1c6v",
+    "value": "latir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Latir"
+  },
+  {
+    "id": "55u9s9cdyn",
+    "value": "saudar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Saudar"
+  },
+  {
+    "id": "hh1dl3bi0m",
+    "value": "ignorar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ignorar"
+  },
+  {
+    "id": "8i5kueqov6",
+    "value": "chatear",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Chatear"
+  },
+  {
+    "id": "sxed18kryj",
+    "value": "punir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Punir"
+  },
+  {
+    "id": "hmpthsav6b",
+    "value": "investir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Investir"
+  },
+  {
+    "id": "qzeg06h2xe",
+    "value": "verificar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Verificar"
+  },
+  {
+    "id": "i5j078xrqo",
+    "value": "solicitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Solicitar"
+  },
+  {
+    "id": "onh7jc8ph3",
+    "value": "inventar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Inventar"
+  },
+  {
+    "id": "4fuvmoe95d",
+    "value": "anunciar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Anunciar"
+  },
+  {
+    "id": "6fcda99lwr",
+    "value": "votar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Votar"
+  },
+  {
+    "id": "enu1t4p9bs",
+    "value": "gerir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Gerir"
+  },
+  {
+    "id": "pctzfjv2ty",
+    "value": "coar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Coar"
+  },
+  {
+    "id": "s80juamec8",
+    "value": "extinguir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Extinguir"
+  },
+  {
+    "id": "qcjnbyb1wg",
+    "value": "comentar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Comentar"
+  },
+  {
+    "id": "hj7fc29n9g",
+    "value": "instruir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Instruir"
+  },
+  {
+    "id": "0q7saubqrl",
+    "value": "aquecer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Aquecer"
+  },
+  {
+    "id": "ylivyaiywo",
+    "value": "extrair",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Extrair"
+  },
+  {
+    "id": "v7kwi826bt",
+    "value": "variar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Variar"
+  },
+  {
+    "id": "bemvwpudwq",
+    "value": "costumar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Costumar"
+  },
+  {
+    "id": "fg7vtllcqk",
+    "value": "averiguar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Averiguar"
+  },
+  {
+    "id": "j5jtu6fwog",
+    "value": "publicar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Publicar"
+  },
+  {
+    "id": "s8fvebj4gn",
+    "value": "iludir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Iludir"
+  },
+  {
+    "id": "jalax0jjir",
+    "value": "combinar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Combinar"
+  },
+  {
+    "id": "l8n209rod2",
+    "value": "vomitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Vomitar"
+  },
+  {
+    "id": "zkb0r6yewf",
+    "value": "enxergar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Enxergar"
+  },
+  {
+    "id": "rw6wcgg7oh",
+    "value": "reduzir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Reduzir"
+  },
+  {
+    "id": "jq5n7d44rs",
+    "value": "transpor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Transpor"
+  },
+  {
+    "id": "wgf11jtguc",
+    "value": "livrar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Livrar"
+  },
+  {
+    "id": "lp3b6vmn4s",
+    "value": "acolher",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Acolher"
+  },
+  {
+    "id": "ru87h1ifoa",
+    "value": "anoitecer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Anoitecer"
+  },
+  {
+    "id": "inuy8dldnk",
+    "value": "viciar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Viciar"
+  },
+  {
+    "id": "cy1m0nfdy7",
+    "value": "deslocar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Deslocar"
+  },
+  {
+    "id": "jys34io5bd",
+    "value": "acalmar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Acalmar"
+  },
+  {
+    "id": "pj29xe61qs",
+    "value": "progredir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Progredir"
+  },
+  {
+    "id": "idwjz4l368",
+    "value": "sobreviver",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sobreviver"
+  },
+  {
+    "id": "mkmgljvod1",
+    "value": "derrubar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Derrubar"
+  },
+  {
+    "id": "n51uv8p4h4",
+    "value": "associar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Associar"
+  },
+  {
+    "id": "zh2fx4pqdl",
+    "value": "recomendar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Recomendar"
+  },
+  {
+    "id": "47nnzkvpnf",
+    "value": "vigiar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Vigiar"
+  },
+  {
+    "id": "npdie2o5fm",
+    "value": "folhear",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Folhear"
+  },
+  {
+    "id": "yizhqlrr6u",
+    "value": "xingar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Xingar"
+  },
+  {
+    "id": "s52r5ixzwe",
+    "value": "testar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Testar"
+  },
+  {
+    "id": "utiqc4xeal",
+    "value": "expulsar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Expulsar"
+  },
+  {
+    "id": "w3uf4od29o",
+    "value": "escorrer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Escorrer"
+  },
+  {
+    "id": "940h68cxu7",
+    "value": "movimentar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Movimentar"
+  },
+  {
+    "id": "m9mkp6r6h7",
+    "value": "interromper",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Interromper"
+  },
+  {
+    "id": "rg8qal1ceo",
+    "value": "exercitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Exercitar"
+  },
+  {
+    "id": "tiswdfkcst",
+    "value": "liberar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Liberar"
+  },
+  {
+    "id": "nnz5z77kko",
+    "value": "citar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Citar"
+  },
+  {
+    "id": "rkdakm53jo",
+    "value": "anexar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Anexar"
+  },
+  {
+    "id": "tnacvtknie",
+    "value": "abordar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Abordar"
+  },
+  {
+    "id": "swqqklxt1l",
+    "value": "suportar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Suportar"
+  },
+  {
+    "id": "bvid59tfw6",
+    "value": "frigir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Frigir"
+  },
+  {
+    "id": "s5ifck1rkm",
+    "value": "somar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Somar"
+  },
+  {
+    "id": "w44xwps6cn",
+    "value": "depender",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Depender"
+  },
+  {
+    "id": ".wgi7l320g",
+    "value": "ventar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ventar"
+  },
+  {
+    "id": "xoi7at42vt",
+    "value": "desperdicar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Desperdiçar"
+  },
+  {
+    "id": "di5cs1kxky",
+    "value": "nevar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Nevar"
+  },
+  {
+    "id": "plojhzfr9v",
+    "value": "introduzir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Introduzir"
+  },
+  {
+    "id": "fenrp0o91q",
+    "value": "interpor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Interpor"
+  },
+  {
+    "id": "xaad4rtjzk",
+    "value": "tragar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Tragar"
+  },
+  {
+    "id": "onrv32cfs5",
+    "value": "cultivar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Cultivar"
+  },
+  {
+    "id": "skjipdqb2c",
+    "value": "integrar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Integrar"
+  },
+  {
+    "id": "l1a5wqx6bb",
+    "value": "desfrutar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Desfrutar"
+  },
+  {
+    "id": "farit9ozbu",
+    "value": "classificar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Classificar"
+  },
+  {
+    "id": "l5bxyg4vf6",
+    "value": "derreter",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Derreter"
+  },
+  {
+    "id": "gwrez95pmr",
+    "value": "revisar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Revisar"
+  },
+  {
+    "id": "ekkk67iz2g",
+    "value": "prosseguir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Prosseguir"
+  },
+  {
+    "id": "hkxz0qwdk5",
+    "value": "extorquir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Extorquir"
+  },
+  {
+    "id": "ew7kplio55",
+    "value": "atirar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Atirar"
+  },
+  {
+    "id": "d9ec60j5at",
+    "value": "finalizar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Finalizar"
+  },
+  {
+    "id": "rt7ujkkboe",
+    "value": "conservar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Conservar"
+  },
+  {
+    "id": "ocgel6i9w7",
+    "value": "determinar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Determinar"
+  },
+  {
+    "id": "oh5e9wm389",
+    "value": "sobrevir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sobrevir"
+  },
+  {
+    "id": "r942yi3k1c",
+    "value": "espalhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Espalhar"
+  },
+  {
+    "id": "9eez2a0z7u",
+    "value": "cancelar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Cancelar"
+  },
+  {
+    "id": "jj3533o434",
+    "value": "lanchar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Lanchar"
+  },
+  {
+    "id": "uxcxz1eyxc",
+    "value": "sortear",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sortear"
+  },
+  {
+    "id": ".czy4xqnq1",
+    "value": "apontar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Apontar"
+  },
+  {
+    "id": "rg564s29vx",
+    "value": "reler",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Reler"
+  },
+  {
+    "id": "lxvk21z878",
+    "value": "decompor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Decompor"
+  },
+  {
+    "id": "d00nf1bv35",
+    "value": "recorrer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Recorrer"
+  },
+  {
+    "id": "duzm7yqp77",
+    "value": "despejar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Despejar"
+  },
+  {
+    "id": "x99sztp6jw",
+    "value": "contactar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Contactar"
+  },
+  {
+    "id": "skoz2efb63",
+    "value": "significar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Significar"
+  },
+  {
+    "id": "2ji2fl9qfg",
+    "value": "emergir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Emergir"
+  },
+  {
+    "id": "u41rizrsuh",
+    "value": "persuadir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Persuadir"
+  },
+  {
+    "id": "36b8pwiado",
+    "value": "remover",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Remover"
+  },
+  {
+    "id": "qtzxa26ydm",
+    "value": "florescer",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Florescer"
+  },
+  {
+    "id": "638chm5szo",
+    "value": "divergir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Divergir"
+  },
+  {
+    "id": "kspfx16vq2",
+    "value": "desanimar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Desanimar"
+  },
+  {
+    "id": "mznl03qas7",
+    "value": "questionar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Questionar"
+  },
+  {
+    "id": "bs3j6r63tw",
+    "value": "erar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Erar"
+  },
+  {
+    "id": "6d9ekmr1gq",
+    "value": "ferver",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ferver"
+  },
+  {
+    "id": "44mz0ooa78",
+    "value": "miar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Miar"
+  },
+  {
+    "id": "c0yvyrlied",
+    "value": "constranger",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Constranger"
+  },
+  {
+    "id": "xuhomk8zve",
+    "value": "sobrepor",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sobrepor"
+  },
+  {
+    "id": "kmsee7sufw",
+    "value": "premiar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Premiar"
+  },
+  {
+    "id": "w0yzgffnxg",
+    "value": "contemplar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Contemplar"
+  },
+  {
+    "id": "uqhuswz3hp",
+    "value": "atrapalhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Atrapalhar"
+  },
+  {
+    "id": "ghtwffkrj8",
+    "value": "sugar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sugar"
+  },
+  {
+    "id": "qhomcypfis",
+    "value": "consultar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Consultar"
+  },
+  {
+    "id": "ix50tfjxo8",
+    "value": "contatar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Contatar"
+  },
+  {
+    "id": "2zqf9bnyhb",
+    "value": "rodar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Rodar"
+  },
+  {
+    "id": "k2ml71g9ne",
+    "value": "recordar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Recordar"
+  },
+  {
+    "id": "wojc8op1ho",
+    "value": "omitir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Omitir"
+  },
+  {
+    "id": "3bnuvgd2ig",
+    "value": "reparar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Reparar"
+  },
+  {
+    "id": "idr425gqx2",
+    "value": "disponibilizar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Disponibilizar"
+  },
+  {
+    "id": "r5637unr0q",
+    "value": "exibir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Exibir"
+  },
+  {
+    "id": "lsk2ti64t1",
+    "value": "restar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Restar"
+  },
+  {
+    "id": "q9myevaikr",
+    "value": "rogar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Rogar"
+  },
+  {
+    "id": "dkyxhoobc6",
+    "value": "suceder",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Suceder"
+  },
+  {
+    "id": "fva1kptg04",
+    "value": "sobrar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Sobrar"
+  },
+  {
+    "id": "631bizsbwl",
+    "value": "fritar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Fritar"
+  },
+  {
+    "id": "1hoslkk233",
+    "value": "exprimir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Exprimir"
+  },
+  {
+    "id": "x4i6z28wcs",
+    "value": "volver",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Volver"
+  },
+  {
+    "id": "ma2eagso3n",
+    "value": "habitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Habitar"
+  },
+  {
+    "id": "085otoco1b",
+    "value": "mergulhar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Mergulhar"
+  },
+  {
+    "id": "6c8boakic9",
+    "value": "imitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Imitar"
+  },
+  {
+    "id": "wb3hqm28hd",
+    "value": "ladrar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ladrar"
+  },
+  {
+    "id": "it19ev50xp",
+    "value": "prescindir",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Prescindir"
+  },
+  {
+    "id": "un0mvbmxck",
+    "value": "balancar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Balançar"
+  },
+  {
+    "id": "gyc0767v5h",
+    "value": "gravar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Gravar"
+  },
+  {
+    "id": "g6mw4k0m3p",
+    "value": "trancar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Trancar"
+  },
+  {
+    "id": "z092rkiyv7",
+    "value": "arrepender",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Arrepender"
+  },
+  {
+    "id": "v2kvpyqnqb",
+    "value": "ameacar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Ameaçar"
+  },
+  {
+    "id": "vcc6zhcdp8",
+    "value": "conscientizar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Conscientizar"
+  },
+  {
+    "id": "eh7s68f53j",
+    "value": "possibilitar",
+    "theme": "padrao",
+    "type": "acao",
+    "item": "Possibilitar"
+  },
+  {
+    "id": "j1wwmno4si",
+    "value": "the-weeknd",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "The Weeknd"
+  },
+  {
+    "id": "g6rtdoaeju",
+    "value": "michael-b.-jordan",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Michael B. Jordan"
+  },
+  {
+    "id": "cfyceaun9q",
+    "value": "selena-gomez",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Selena Gomez"
+  },
+  {
+    "id": "cxcfjjqzcb",
+    "value": "jennifer-hudson",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Jennifer Hudson"
+  },
+  {
+    "id": "ck190vtqyk",
+    "value": "yo-yo-ma",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Yo-Yo Ma"
+  },
+  {
+    "id": "jm34yewfmh",
+    "value": "dapper-dan",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Dapper Dan"
+  },
+  {
+    "id": "h192px634s",
+    "value": "anais-mitchell",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Anaïs Mitchell"
+  },
+  {
+    "id": "ytj0btp45q",
+    "value": "michaela-coel",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Michaela Coel"
+  },
+  {
+    "id": "s3a2ddl9sb",
+    "value": "bong-joon-ho",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Bong Joon Ho"
+  },
+  {
+    "id": "22zt9rgjj7",
+    "value": "kamala-harris",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Kamala Harris"
+  },
+  {
+    "id": "izfv4cosqx",
+    "value": "xi-jinping",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Xi Jinping"
+  },
+  {
+    "id": "f4ee6iztt8",
+    "value": "donald-trump",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Donald Trump"
+  },
+  {
+    "id": "kl3knqaqug",
+    "value": "angela-merkel",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Angela Merkel"
+  },
+  {
+    "id": "c5n5ndx12s",
+    "value": "joe-biden",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Joe Biden"
+  },
+  {
+    "id": "730sag38en",
+    "value": "jair-bolsonaro",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Jair Bolsonaro"
+  },
+  {
+    "id": "fs4gqi29nx",
+    "value": "mary-kay-henry",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Mary Kay Henry"
+  },
+  {
+    "id": "878rb40tfa",
+    "value": "nemonte-nenquimo",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Nemonte Nenquimo"
+  },
+  {
+    "id": "xcskyflxhf",
+    "value": "ursula-von-der-leyen",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Ursula von der Leyen"
+  },
+  {
+    "id": "y02e7du4uk",
+    "value": "jung-eun-kyeong",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Jung Eun-kyeong"
+  },
+  {
+    "id": "du8ys0h9zt",
+    "value": "bonnie-castillo",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Bonnie Castillo"
+  },
+  {
+    "id": "80w19tbjc9",
+    "value": "yousef-al-otaiba",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Yousef Al Otaiba"
+  },
+  {
+    "id": "00tas90syr",
+    "value": "dwayne-johnson",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Dwayne Johnson"
+  },
+  {
+    "id": "o6hgrc1gym",
+    "value": "ryan-reynolds",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Ryan Reynolds"
+  },
+  {
+    "id": "6kk3ihf6mi",
+    "value": "mark-wahlberg",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Mark Wahlberg"
+  },
+  {
+    "id": "tc15r36ezp",
+    "value": "ben-affleck",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Ben Affleck"
+  },
+  {
+    "id": "zvz5fcmdpx",
+    "value": "vin-diesel",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Vin Diesel"
+  },
+  {
+    "id": "4ge9x99ttc",
+    "value": "akshay-kumar",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Akshay Kumar"
+  },
+  {
+    "id": "nq363vhhgo",
+    "value": "will-smith",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Will Smith"
+  },
+  {
+    "id": "yzeud6l6qc",
+    "value": "denzel-washington",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Denzel Washington"
+  },
+  {
+    "id": "m01vwb5ojb",
+    "value": "isabelle-huppert",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Isabelle Huppert"
+  },
+  {
+    "id": "k7ipx400jd",
+    "value": "daniel-day-lewis",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Daniel Day-Lewis"
+  },
+  {
+    "id": "ahk6tncmm6",
+    "value": "keanu-reeves",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Keanu Reeves"
+  },
+  {
+    "id": "5zqgwk8nvg",
+    "value": "nicole-kidman",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Nicole Kidman"
+  },
+  {
+    "id": "uz1nu3qgkw",
+    "value": "song-kang-ho",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Song Kang Ho"
+  },
+  {
+    "id": "lut4fvazwt",
+    "value": "viola-davis",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Viola Davis"
+  },
+  {
+    "id": "kzn9z6qtw9",
+    "value": "saoirse-ronan",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Saoirse Ronan"
+  },
+  {
+    "id": "vhf7jjhr4f",
+    "value": "julianne-moore",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Julianne Moore"
+  },
+  {
+    "id": "q67h28j9qk",
+    "value": "joaquin-phoenix",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Joaquin Phoenix"
+  },
+  {
+    "id": "6mdbglfm3p",
+    "value": "tilda-swinton",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Tilda Swinton"
+  },
+  {
+    "id": "xgerpk594o",
+    "value": "oscar-isaac",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Oscar Isaac"
+  },
+  {
+    "id": "z49sk8chhf",
+    "value": "willem-dafoe",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Willem Dafoe"
+  },
+  {
+    "id": "dsdmuwo74x",
+    "value": "melissa-mccarthy",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Melissa McCarthy"
+  },
+  {
+    "id": "szw158cgiv",
+    "value": "mahershala-ali",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Mahershala Ali"
+  },
+  {
+    "id": "aip7zxo3mj",
+    "value": "sonia-braga",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Sônia Braga"
+  },
+  {
+    "id": "9mj24kwski",
+    "value": "anitta",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Anitta"
+  },
+  {
+    "id": "x4theta4bh",
+    "value": "alok",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Alok"
+  },
+  {
+    "id": "0gkehpgynb",
+    "value": "mc-kevinho",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "MC Kevinho"
+  },
+  {
+    "id": "yspu6bbcip",
+    "value": "bruno-martini",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Bruno Martini"
+  },
+  {
+    "id": "deu1oba0vo",
+    "value": "zeeba",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Zeeba"
+  },
+  {
+    "id": "imd2bhmlhr",
+    "value": "mc-livinho",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "MC Livinho"
+  },
+  {
+    "id": ".t5n5vpzxn",
+    "value": "matheus-e-kauan",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Matheus e Kauan"
+  },
+  {
+    "id": "lyp0tkst5i",
+    "value": "wesley-safadao",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Wesley Safadão"
+  },
+  {
+    "id": "zaiuaj5jgt",
+    "value": "jorge-e-mateus",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Jorge e Mateus"
+  },
+  {
+    "id": "xjxbd5i9vc",
+    "value": "pabllo-vittar",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Pabllo Vittar"
+  },
+  {
+    "id": "fkgno86f4s",
+    "value": "lucas-lucco",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Lucas Lucco"
+  },
+  {
+    "id": "383wk0ps5j",
+    "value": "marilia-mendonca",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Marília Mendonça"
+  },
+  {
+    "id": "z0t61lgm99",
+    "value": "gusttavo-lima",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Gusttavo Lima"
+  },
+  {
+    "id": "h3nzm0kczl",
+    "value": "cazuza",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Cazuza"
+  },
+  {
+    "id": "3m30myv9x2",
+    "value": "rita-lee",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Rita Lee"
+  },
+  {
+    "id": "1hy2ymma3c",
+    "value": "renato-russo",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Renato Russo"
+  },
+  {
+    "id": "6xpntthwuy",
+    "value": "freddy-mercury",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Freddy Mercury"
+  },
+  {
+    "id": "81vjyuo84c",
+    "value": "elton-john",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Elton John"
+  },
+  {
+    "id": "a0198i6tjm",
+    "value": "grazi-massafera",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Grazi Massafera"
+  },
+  {
+    "id": "il9rdhpsbl",
+    "value": "adriana-esteves",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Adriana Esteves"
+  },
+  {
+    "id": "yx7cn751wp",
+    "value": "alice-braga",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Alice Braga"
+  },
+  {
+    "id": "w2rrkky9ia",
+    "value": "bruna-marquezine",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Bruna Marquezine"
+  },
+  {
+    "id": "qkuyydepql",
+    "value": "camila-pitanga",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Camila Pitanga"
+  },
+  {
+    "id": "ir4x7ce3eg",
+    "value": "carolina-dieckmann",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Carolina Dieckmann"
+  },
+  {
+    "id": "fd35xr4u0i",
+    "value": "claudia-raia",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Claudia Raia"
+  },
+  {
+    "id": "vfn77289l6",
+    "value": "fernanda-lima",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Fernanda Lima"
+  },
+  {
+    "id": "hg4gmwp8ff",
+    "value": "fernanda-torres",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Fernanda Torres"
+  },
+  {
+    "id": "ickh1oi23r",
+    "value": "fernanda-montenegro",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Fernanda Montenegro"
+  },
+  {
+    "id": "air02lkpul",
+    "value": "giovanna-antonelli",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Giovanna Antonelli"
+  },
+  {
+    "id": "ghsx875lwg",
+    "value": "isabelle-drummond",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Isabelle Drummond"
+  },
+  {
+    "id": "dlux4e9f8t",
+    "value": "isis-valverde",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Isis Valverde"
+  },
+  {
+    "id": "vpjdi4sm92",
+    "value": "juliana-paes",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Juliana Paes"
+  },
+  {
+    "id": "ifec0d6xtr",
+    "value": "leandra-leal",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Leandra Leal"
+  },
+  {
+    "id": "xz4asxjnhx",
+    "value": "marina-ruy-barbosa",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Marina Ruy Barbosa"
+  },
+  {
+    "id": "hfucphuuh1",
+    "value": "patricia-pillar",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Patrícia Pillar"
+  },
+  {
+    "id": "bifipvnz4h",
+    "value": "regina-case",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Regina Casé"
+  },
+  {
+    "id": "y10v4vx6re",
+    "value": "regina-duarte",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Regina Duarte"
+  },
+  {
+    "id": "q94ustp8wz",
+    "value": "sonia-braga",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Sonia Braga"
+  },
+  {
+    "id": "srcr4o871a",
+    "value": "susana-vieira",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Susana Vieira"
+  },
+  {
+    "id": "w5pedswwmf",
+    "value": "rodrigo-lombardi",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Rodrigo Lombardi"
+  },
+  {
+    "id": "d4nhneo3yv",
+    "value": "alice-wegmann",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Alice Wegmann"
+  },
+  {
+    "id": "n4d6kgaacr",
+    "value": "marjorie-estiano",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Marjorie Estiano"
+  },
+  {
+    "id": "fnmwvbtkoj",
+    "value": "milton-goncalves",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Milton Gonçalves"
+  },
+  {
+    "id": "l9kjqe4hcb",
+    "value": "francisco-cuoco",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Francisco Cuoco"
+  },
+  {
+    "id": "vtaij8hox2",
+    "value": "gloria-menezes",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Glória Menezes"
+  },
+  {
+    "id": "qdhdzy9g7l",
+    "value": "tarcisio-meira",
+    "theme": "padrao",
+    "type": "personagem-pessoa",
+    "item": "Tarcísio Meira"
+  },
+  {
+    "id": "f4w7z23imp",
+    "value": "kubikiribocho",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Kubikiribōchō"
+  },
+  {
+    "id": "xko0t6gu6z",
+    "value": "samehada",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Samehada"
+  },
+  {
+    "id": "axz3wz0g4s",
+    "value": "marionete-karasu",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Marionete Karasu"
+  },
+  {
+    "id": "qnro7qyldh",
+    "value": "marionete-hiruko",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Marionete Hiruko"
+  },
+  {
+    "id": "jnd19mbp9b",
+    "value": "marionete-formiga-negra",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Marionete Formiga Negra"
+  },
+  {
+    "id": "yrxiwu170m",
+    "value": "marionete-salamandra",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Marionete Salamandra"
+  },
+  {
+    "id": "rpdutupvue",
+    "value": "marionetes",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Marionetes"
+  },
+  {
+    "id": "62t829ik9v",
+    "value": "espada-de-kusanagi",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Espada de Kusanagi"
+  },
+  {
+    "id": "osxywe0gjb",
+    "value": "hiramekarei",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Hiramekarei"
+  },
+  {
+    "id": "upx78vl2bi",
+    "value": "receptor-negro",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Receptor Negro"
+  },
+  {
+    "id": "iyfcggunpw",
+    "value": "bandana",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Bandana"
+  },
+  {
+    "id": "ka90can56n",
+    "value": "livro-a-lenda-de-um-ninja-determinado",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Livro A Lenda de Um Ninja Determinado"
+  },
+  {
+    "id": "bwurlt6q0b",
+    "value": "alto-falante-ressonante-de-eco",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Alto-Falante Ressonante de Eco"
+  },
+  {
+    "id": "i252m13knb",
+    "value": "bastao-do-seis-caminhos",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Bastão do Seis Caminhos"
+  },
+  {
+    "id": "ksecwvx0ub",
+    "value": "bashosen",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Bashōsen"
+  },
+  {
+    "id": "7j5r9kkpki",
+    "value": "benihisago",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Benihisago"
+  },
+  {
+    "id": "hskclwgate",
+    "value": "bola-de-papeis-explosivos",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Bola de Papéis Explosivos"
+  },
+  {
+    "id": "sqvp6sja2w",
+    "value": "bomba-de-fumaca-kemuridama",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Bomba de Fumaça - Kemuridama"
+  },
+  {
+    "id": "60nbhbu5at",
+    "value": "kunai-de-bomba-de-fumaca",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Kunai de Bomba de Fumaça"
+  },
+  {
+    "id": "mux85u3tra",
+    "value": "kunai",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Kunai"
+  },
+  {
+    "id": "cojtzox0kt",
+    "value": "kunai-do-minato",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Kunai do Minato"
+  },
+  {
+    "id": "j4miwgkbe2",
+    "value": "shuriken",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Shuriken"
+  },
+  {
+    "id": "eveo7wx55d",
+    "value": "icha-icha-paradise",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Icha Icha Paradise"
+  },
+  {
+    "id": "dz6kau5wtp",
+    "value": "kabutowari",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Kabutowari"
+  },
+  {
+    "id": "qq5ht2hlap",
+    "value": "bomba-de-gelo",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Bomba de Gelo"
+  },
+  {
+    "id": "psp6aehfxj",
+    "value": "bomba-de-luz",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Bomba de Luz"
+  },
+  {
+    "id": "j7uk3f2aro",
+    "value": "cabaca-de-areia",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Cabaça de Areia"
+  },
+  {
+    "id": "h2ougmx7uq",
+    "value": "leque-da-temari",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Leque da Temari"
+  },
+  {
+    "id": "ees6e1so8d",
+    "value": "livro-bingo",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Livro Bingo"
+  },
+  {
+    "id": "9d73s2npra",
+    "value": "colar-do-primeiro-hokage",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Colar do Primeiro Hokage"
+  },
+  {
+    "id": "i05u5d2bgs",
+    "value": "papel-explosivo",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Papel Explosivo"
+  },
+  {
+    "id": "nlnnehsbkb",
+    "value": "pergaminho",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Pergaminho"
+  },
+  {
+    "id": "lq4lykttj4",
+    "value": "flauta-demoniaca-mateki",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Flauta Demoníaca - Mateki"
+  },
+  {
+    "id": ".mr8ddljzl",
+    "value": "mascara-shinigami",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Máscara Shinigami"
+  },
+  {
+    "id": "l55elkac2f",
+    "value": "pergaminho-dos-selos",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Pergaminho dos Selos"
+  },
+  {
+    "id": "nwtuvli3y8",
+    "value": "pilula-de-aumento-de-sangue",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Pílula de Aumento de Sangue"
+  },
+  {
+    "id": "l9bnx5i65c",
+    "value": "senbon",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Senbon"
+  },
+  {
+    "id": "w28r368eyj",
+    "value": "shibuki-espada",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Shibuki - Espada"
+  },
+  {
+    "id": "fnovb55xvn",
+    "value": "sino-ou-guizo",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Sino ou Guizo"
+  },
+  {
+    "id": "pi2yb35ole",
+    "value": "tres-pilulas-coloridas",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Três Pílulas Coloridas"
+  },
+  {
+    "id": "nitdq572cg",
+    "value": "zanbato",
+    "theme": "naruto",
+    "type": "objeto",
+    "item": "Zanbatō"
+  },
+  {
+    "id": "odftt6a61a",
+    "value": "rasengan",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Rasengan"
+  },
+  {
+    "id": "a6sl08rcud",
+    "value": "chidori",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Chidori"
+  },
+  {
+    "id": "p5c8dowf3k",
+    "value": "abertura-dos-cinco-elementos-gogyo-kaiin",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Abertura dos Cinco Elementos - Gogyō Kaiin"
+  },
+  {
+    "id": "87nuiyjbwy",
+    "value": "abordagem-acolhedora-mil-bracos-assassinos",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Abordagem Acolhedora - Mil Braços Assassinos"
+  },
+  {
+    "id": "xjuqcuq717",
+    "value": "agulha-de-cabelo-do-coelho-togebari",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Agulha de Cabelo do Coelho - Togebari"
+  },
+  {
+    "id": "f9f7ofxqxh",
+    "value": "amaterasu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Amaterasu"
+  },
+  {
+    "id": "8wlsngkxp3",
+    "value": "andorinha-voadora-hien",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Andorinha Voadora - Hien"
+  },
+  {
+    "id": "b1bfc245ek",
+    "value": "jutsu-de-selamento-do-cla-uzumaki",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Jutsu de Selamento do Clã Uzumaki"
+  },
+  {
+    "id": "pidl3x6a8a",
+    "value": "shinra-tensei",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Shinra Tensei"
+  },
+  {
+    "id": "wi524q87ja",
+    "value": "bijuu-dama",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Bijuu Dama"
+  },
+  {
+    "id": "c8ocyk49m9",
+    "value": "chibaku-tensei",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Chibaku Tensei"
+  },
+  {
+    "id": "jz7k9l1zoa",
+    "value": "hiraishin-no-jutsu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Hiraishin no Jutsu"
+  },
+  {
+    "id": "lxo53c4ubx",
+    "value": "liberacao-da-poeira-jinton-genkai-hakuri-no-jutsu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Liberação da Poeira - Jinton - Genkai Hakuri no Jutsu"
+  },
+  {
+    "id": "gxjuhk9uui",
+    "value": "rasenshuriken",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Rasenshuriken"
+  },
+  {
+    "id": "jg08v298wg",
+    "value": "susanoo",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Susanoo"
+  },
+  {
+    "id": "tn9029h5ef",
+    "value": "tsukuyomi",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Tsukuyomi"
+  },
+  {
+    "id": "jbhdmmmoth",
+    "value": "hengue-no-jutsu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Hengue no Jutsu"
+  },
+  {
+    "id": "5wtlfb5exh",
+    "value": "edo-tensei",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Edo Tensei"
+  },
+  {
+    "id": "pytnziz7vm",
+    "value": "gudodama",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Gudōdama"
+  },
+  {
+    "id": "kjojla93gp",
+    "value": "liberacao-dos-8-portoes-hachimon-tonko-no-jin",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Liberação dos 8 portões - Hachimon Tonkō no Jin"
+  },
+  {
+    "id": "8l92362hqg",
+    "value": "guy-noturno-yagai",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Guy Noturno - Yagai"
+  },
+  {
+    "id": "xdltck6tr9",
+    "value": "punho-adamantino-kongoken",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Punho Adamantino - Kongōken"
+  },
+  {
+    "id": "70wxlbrevr",
+    "value": "izanagi",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Izanagi"
+  },
+  {
+    "id": "3ew0v4hkt8",
+    "value": "izanami",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Izanami"
+  },
+  {
+    "id": "r5id0dp63l",
+    "value": "kotoamatsukami",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Kotoamatsukami"
+  },
+  {
+    "id": "7dg16st5qm",
+    "value": "shikotsumyaku",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Shikotsumyaku"
+  },
+  {
+    "id": "fl57z8mlxg",
+    "value": "kagemane-no-jutsu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Kagemane no Jutsu"
+  },
+  {
+    "id": "8sbulm5zvk",
+    "value": "shintenshin-no-jutsu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Shintenshin no Jutsu"
+  },
+  {
+    "id": "y3chpiz5gh",
+    "value": "bunshin-no-jutsu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Bunshin no Jutsu"
+  },
+  {
+    "id": "s0710gzlv3",
+    "value": "kage-bunshin-no-jutsu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Kage Bunshin no Jutsu"
+  },
+  {
+    "id": "dcxsbywhdb",
+    "value": "tsjuu-kage-bunshin-no-jutsu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Tsjuu Kage Bunshin no Jutsu"
+  },
+  {
+    "id": "c369eao41p",
+    "value": "estilo-da-madeira-as-verdadeiras-mil-maos-shin-suusenju",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Estilo da Madeira - As Verdadeiras Mil Mãos - Shin Suusenju"
+  },
+  {
+    "id": "fgximqj0ej",
+    "value": "kamui",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Kamui"
+  },
+  {
+    "id": "7zfkbetr5p",
+    "value": "sharingan",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Sharingan"
+  },
+  {
+    "id": "nwuzdtwhbc",
+    "value": "byakugan",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Byakugan"
+  },
+  {
+    "id": "ipl0gu8ojo",
+    "value": "mangekyou-sharingan",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Mangekyou Sharingan"
+  },
+  {
+    "id": "kmogzv7lpa",
+    "value": "rinnegan",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Rinnegan"
+  },
+  {
+    "id": "h9m7b9h82w",
+    "value": "kuchiyose-no-jutsu",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Kuchiyose no Jutsu"
+  },
+  {
+    "id": "q6f1o9q37t",
+    "value": "abraco-da-marionete",
+    "theme": "naruto",
+    "type": "acao",
+    "item": "Abraço da Marionete"
+  },
+  {
+    "id": "e379jbnccb",
+    "value": "uzumaki-naruto",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Uzumaki Naruto"
+  },
+  {
+    "id": "jxxk549g12",
+    "value": "uchiha-sasuke",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Uchiha Sasuke"
+  },
+  {
+    "id": "ra5wisub6x",
+    "value": "haruno-sakura",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Haruno Sakura"
+  },
+  {
+    "id": "2cz5ousnel",
+    "value": "hatake-kakashi",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Hatake Kakashi"
+  },
+  {
+    "id": "tk00a35szj",
+    "value": "uchiha-obito",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Uchiha Obito"
+  },
+  {
+    "id": "877pbf0h0c",
+    "value": "tobi",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Tobi"
+  },
+  {
+    "id": "025kva93d8",
+    "value": "uchiha-itachi",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Uchiha Itachi"
+  },
+  {
+    "id": "qhcvbvfk8r",
+    "value": "namikaze-minato",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Namikaze Minato"
+  },
+  {
+    "id": "xcva6kwlf2",
+    "value": "uzumaki-nagato",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Uzumaki Nagato"
+  },
+  {
+    "id": "r4678stye2",
+    "value": "quarto-raikage",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Quarto Raikage"
+  },
+  {
+    "id": "hwr862b7hq",
+    "value": "terceiro-raikage",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Terceiro Raikage"
+  },
+  {
+    "id": "6dup1inqkf",
+    "value": "akamaru",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Akamaru"
+  },
+  {
+    "id": "ih0s8x4j4u",
+    "value": "kurama",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Kurama"
+  },
+  {
+    "id": "kdhglvox8j",
+    "value": "matatabi",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Matatabi"
+  },
+  {
+    "id": "p8l80i4x8b",
+    "value": "gyūki",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Gyūki"
+  },
+  {
+    "id": "essclb3jop",
+    "value": "isobu",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Isobu"
+  },
+  {
+    "id": "gzgwfs8w0i",
+    "value": "gamabunta",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Gamabunta"
+  },
+  {
+    "id": "qx5ojphmc6",
+    "value": "gamakichi",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Gamakichi"
+  },
+  {
+    "id": "q0ewoq2fs5",
+    "value": "shukaku",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Shukaku"
+  },
+  {
+    "id": "7fr122t2vi",
+    "value": "kokuo",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Kokuō"
+  },
+  {
+    "id": "n9vrsa416t",
+    "value": "anko-mitarashi",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Anko Mitarashi"
+  },
+  {
+    "id": "ilhn301ed8",
+    "value": "hyuuga-hinata",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Hyuuga Hinata"
+  },
+  {
+    "id": "dxmv4pml9r",
+    "value": "hyuuga-neji",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Hyuuga Neji"
+  },
+  {
+    "id": "k3cff2havk",
+    "value": "inuzuka-kiba",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Inuzuka Kiba"
+  },
+  {
+    "id": "sa4gtbzwzm",
+    "value": "aburame-shino",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Aburame Shino"
+  },
+  {
+    "id": "lgjsgl6nqy",
+    "value": "kurenai-yūhi",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Kurenai Yūhi"
+  },
+  {
+    "id": "wnjj9ot3ce",
+    "value": "yamanaka-ino",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Yamanaka Ino"
+  },
+  {
+    "id": "50pejckqyr",
+    "value": "yamanaka-inoichi",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Yamanaka Inoichi"
+  },
+  {
+    "id": "4jbo9ktk3f",
+    "value": "nara-shikamaru",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Nara Shikamaru"
+  },
+  {
+    "id": "t1afkqg9k8",
+    "value": "nara-shikaku",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Nara Shikaku"
+  },
+  {
+    "id": "xcui52zavq",
+    "value": "akimichi-choza",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Akimichi Chōza"
+  },
+  {
+    "id": "7nf7aoqdwq",
+    "value": "akimichi-choji",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Akimichi Chōji"
+  },
+  {
+    "id": "iljgoun926",
+    "value": "sarutobi-asuma",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Sarutobi Asuma"
+  },
+  {
+    "id": "lqeoj4e8iq",
+    "value": "sarutobi-hiruzen",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Sarutobi Hiruzen"
+  },
+  {
+    "id": "ltre5rwh4c",
+    "value": "sarutobi-konohamaru",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Sarutobi Konohamaru"
+  },
+  {
+    "id": "ihpshhpad9",
+    "value": "rock-lee",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Rock Lee"
+  },
+  {
+    "id": "vl88qllekb",
+    "value": "tenten",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Tenten"
+  },
+  {
+    "id": "7nff2k4eln",
+    "value": "might-guy-guy-sensei",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Might Guy - Guy sensei"
+  },
+  {
+    "id": "hked4isd83",
+    "value": "zetsu",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Zetsu"
+  },
+  {
+    "id": "o7lj5vt5ki",
+    "value": "sasori",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Sasori"
+  },
+  {
+    "id": "zi8ueamtwa",
+    "value": "chiyo",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Chiyo"
+  },
+  {
+    "id": "ieninrx9yr",
+    "value": "killer-bee",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Killer Bee"
+  },
+  {
+    "id": "4ouoe2su96",
+    "value": "sabaku-no-gaara",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Sabaku no Gaara"
+  },
+  {
+    "id": "04znl5fapo",
+    "value": "kabuto-yakushi",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Kabuto Yakushi"
+  },
+  {
+    "id": "txal3krcwz",
+    "value": "jiraiya",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Jiraiya"
+  },
+  {
+    "id": "26exrvipgf",
+    "value": "senju-tsunade",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Senju Tsunade"
+  },
+  {
+    "id": "eat5tcx5jk",
+    "value": "orochimaru",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Orochimaru"
+  },
+  {
+    "id": "9npgkbqrig",
+    "value": "senju-hashirama",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Senju Hashirama"
+  },
+  {
+    "id": "oxmxl6k1j4",
+    "value": "otsutsuki-hamura",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Ōtsutsuki Hamura"
+  },
+  {
+    "id": "nq9wf5if0q",
+    "value": "uchiha-madara",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Uchiha Madara"
+  },
+  {
+    "id": "e8iet5mad9",
+    "value": "otsutsuki-kaguya",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Ōtsutsuki Kaguya"
+  },
+  {
+    "id": "6fsnhd40mo",
+    "value": "otsutsuki-hagoromo",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Ōtsutsuki Hagoromo"
+  },
+  {
+    "id": "vj59wejqls",
+    "value": "konan",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Konan"
+  },
+  {
+    "id": "y3wym4giyx",
+    "value": "deidara",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Deidara"
+  },
+  {
+    "id": "py41u7qz7r",
+    "value": "hidan",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Hidan"
+  },
+  {
+    "id": "mbhjrfwin9",
+    "value": "kakuzu",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Kakuzu"
+  },
+  {
+    "id": "sjpu3md3pk",
+    "value": "hoshigaki-kisame",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Hoshigaki Kisame"
+  },
+  {
+    "id": "oimv0uj39k",
+    "value": "pain",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Pain"
+  },
+  {
+    "id": "wwkokyg7s7",
+    "value": "umino-iruka",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Umino Iruka"
+  },
+  {
+    "id": "cwa09cakue",
+    "value": "yamato",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Yamato"
+  },
+  {
+    "id": "rohyf3aph7",
+    "value": "uzumaki-kushina",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Uzumaki Kushina"
+  },
+  {
+    "id": "yxp7j567uh",
+    "value": "kankuro",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Kankuro"
+  },
+  {
+    "id": "v73fd0lm53",
+    "value": "temari",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Temari"
+  },
+  {
+    "id": "rgc2mz8w95",
+    "value": "sai",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Sai"
+  },
+  {
+    "id": "v5z6pooiyh",
+    "value": "shimura-danzou",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Shimura Danzou"
+  },
+  {
+    "id": "hw3x3lafca",
+    "value": "senju-tobirama",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Senju Tobirama"
+  },
+  {
+    "id": "keb0so8sge",
+    "value": "uchiha-shisui",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Uchiha Shisui"
+  },
+  {
+    "id": "wfky3e65rz",
+    "value": "karin",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Karin"
+  },
+  {
+    "id": "r30ho5de9e",
+    "value": "haku",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Haku"
+  },
+  {
+    "id": "zqqazjhqou",
+    "value": "momochi-zabuza",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Momochi Zabuza"
+  },
+  {
+    "id": "ygeps0yopb",
+    "value": "kimimaro",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Kimimaro"
+  },
+  {
+    "id": "w0rek1b52m",
+    "value": "hozuki-suigetsu",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Hozuki Suigetsu"
+  },
+  {
+    "id": "mxkakh5f32",
+    "value": "jūgo",
+    "theme": "naruto",
+    "type": "personagem-pessoa",
+    "item": "Jūgo"
   }
 ]
