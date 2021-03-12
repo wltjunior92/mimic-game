@@ -40,8 +40,8 @@ export default createGlobalStyle`
 
   .ads {
     display: block;
-    width: 160px;
-    height: 60px;
+    width: auto;
+    height: auto;
   }
 
   @media(max-width: 1000px) {
