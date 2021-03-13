@@ -23,7 +23,13 @@ export default function PlayerCard(props: Player) {
       {props.children}
       <h4>{props.name}</h4>
       <strong>{points}</strong>
-      <footer>
+      <footer style={{
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: 'auto',
+      }}>
         <button onClick={incrementPoints}>+1</button>
         <button onClick={decrementPoints}>-1</button>
       </footer>

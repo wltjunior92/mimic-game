@@ -18,6 +18,7 @@ export const Container = styled.div<{ background: string }>`
 
   border-radius: 5px;
 
+  min-width: 7.5rem;
 
   h4 {
     font-weight: 400;
@@ -32,6 +33,7 @@ export const Container = styled.div<{ background: string }>`
   footer {
     border-top: solid 1px #fff;
     padding: 0.25rem 0;
+
 
     button {
       border: 0;
