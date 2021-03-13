@@ -4,12 +4,14 @@ import CardItem from "../components/CardItem";
 import Header from "../components/Header";
 
 import { Container, SettingsContainer, ContentContainer, CardContainer } from "../styles/pages/Cards";
+import { TextContainer } from '../styles/components/TextContentContainer'
 import DrawItens from "../utils/DrawItems";
 
 import themes from '../data/themes.json'
 import types from '../data/types.json'
 import itens from '../data/itens.json'
 import SEO from "../components/SEO";
+import TextContentContainer from "../components/TextContentContainer";
 
 export default function Cards() {
   const [theme, setTheme] = useState('');
@@ -105,6 +107,40 @@ export default function Cards() {
         )}
 
       </ContentContainer>
+      <TextContentContainer>
+        <header>
+          <h2>Como funciona a página de cartas?</h2>
+          <p>
+            Com mais de <strong>1500 itens (e aumentando)</strong> você pode escolher um tema e um
+            tipo para poder sortear as cartas!
+          </p>
+        </header>
+        <main style={{ marginBottom: '5rem' }}>
+          <h2 style={{ margin: '2rem 0', textAlign: 'center' }}>Os tipos a serem selecionados são:</h2>
+          <h2>Objeto</h2>
+          <p>
+            Representa um objeto mesmo, como uma colher, um abajur, um sapato, ou Oboé 😬.
+          </p>
+          <h2>Ação ou Habilidade</h2>
+          <p>
+            A definição varia pois depende do <strong>tema selecionado</strong>.<br />
+            Digamos que o tema selecionado seja o de <strong>"Heróis da Marvel"</strong>. Existem
+            várias ações do mundo real que um personagem que se enquadra nesse tema tbm pode realizar,
+            como "pular" por exemplo, por isso, quando nesses casos, serão sorteados habilidades de
+            algum personagem desse universo, como <strong>"Se transformar no Hulk"</strong> por exemplo 👍.
+          </p>
+          <h2>Personagem ou Pessoa</h2>
+          <p>
+            Esse também é bastante auto explicativo 😅. Esse tipo trás como resultados nomes de
+            pessoas famosas ou personagens relacionados ao tema escolhido.
+          </p>
+          <h2>Mix</h2>
+          <p>
+            Esse <strong>mistura todos os três tipos</strong> e pode sortear itens variados.
+          </p>
+        </main>
+      </TextContentContainer>
+
 
     </Container>
   )

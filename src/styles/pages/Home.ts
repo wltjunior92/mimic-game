@@ -18,12 +18,29 @@ export const Container = styled.div`
     width: 100%;
   }
 
+  .add_players_message {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   @media(max-width: 1000px) {
     .data_settings_container {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+    }
+
+    .add_players_message {
+      font-size: 1.2rem;
+      text-align: center;
     }
   }
 `
@@ -235,13 +252,14 @@ border: 0;
 `
 export const PlayersDisplay = styled.div`
   height: auto;
-  width: 92%;
+  width: auto;
+  max-width: 70%;
   padding: 0.4rem;
   margin: 1.5rem 1rem;
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 
   border-radius: 8px;
   box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.2);

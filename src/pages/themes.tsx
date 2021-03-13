@@ -1,10 +1,11 @@
 import { FormEvent, useEffect, useState } from "react";
 import Header from "../components/Header";
-import { ThemesContainer } from "../styles/pages/Themes";
+import { ContentContainer, ThemesContainer } from "../styles/pages/Themes";
 import axios from 'axios';
 
 import { sendSugestionSchema } from '../validations/SendSugestionValidation'
 import SEO from "../components/SEO";
+import TextContentContainer from "../components/TextContentContainer";
 
 export default function Cards() {
   const [email, setEmail] = useState('')
@@ -42,7 +43,7 @@ export default function Cards() {
   }
 
   return (
-    <div>
+    <ThemesContainer>
       <SEO
         title="Sugestão de temas"
         description="Envie-nos sugestões de temas"
@@ -50,7 +51,7 @@ export default function Cards() {
       />
       <Header />
 
-      <ThemesContainer>
+      <ContentContainer>
         {hasSendedMessage && (
           <div className="message">
             <h3>Obrigado por nos enviar sua sugestão de tema 🎉🎊</h3>
@@ -85,8 +86,32 @@ export default function Cards() {
             <button type="submit">Enviar</button>
           </div>
         </form>
-      </ThemesContainer>
+      </ContentContainer>
+      <footer>
+        <TextContentContainer>
+          <main style={{ margin: '6rem 0 5rem 0' }}>
+            <p style={{ marginBottom: '2rem' }}>
+              A equipe responsável pelo <strong>Mimic Fácil</strong> se importa, sobretudo, em
+              proporcionar a <strong>experiência mais divertida e memorável</strong> para os
+              jogadores, por isso nos disponibilizamos a receber sugestões de novos temas que
+              possam agradar nossa comunidade de jogadores.
+            </p>
+            <p>
+              Como sabemos que não somos imunes a falhas, fique à vontade também para nos
+              informar sobre bugs e sugerir alterações e melhorias no nosso site.
+            </p>
+            <h2 style={{
+              textAlign: 'center',
+              lineHeight: '2rem',
+              marginTop: '5rem',
+              marginLeft: '0'
+            }}>
+              A equipe Mimic Fácil agradece muito<br />a sua colaboração! 🎉
+            </h2>
+          </main>
+        </TextContentContainer>
+      </footer>
 
-    </div>
+    </ThemesContainer>
   )
 }

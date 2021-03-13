@@ -5,6 +5,15 @@ export const ThemesContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+`
+
+export const ContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 2rem;
 
   .message {
     margin: 1.25rem 0;
