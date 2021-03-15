@@ -56,6 +56,7 @@ export default function SEO({
       <meta name="twitter:image:height" content="620" />
 
       <meta name="google-site-verification" content="UozLnF49JHirO0HidB_M_5OsPDGTjvevDcUN1sA4LxQ" />
+      <meta name="propeller" content="ac105aa9a6a0d178e07b87ec4829d47d" />
 
       <script data-ad-client="ca-pub-7632212870835720" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Head>
