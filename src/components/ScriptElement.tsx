@@ -5,14 +5,14 @@ interface ScriptElementProps {
   text: string;
 }
 
-const ScriptElement = ({ children, ...props }: ScriptElementProps) => {
-  const el = useRef<HTMLScriptElement>();
+const ReactComment = ({ children, ...props }: ScriptElementProps) => {
+  const el: any = useRef();
   useEffect(() => {
-    el.current.outerHTML = props.text;
+    el.current.outerHTML = `<script> ${props.text} </script>`;
   }, []);
   return (
-    <script ref={el} />
+    <div ref={el} />
   );
 };
 
-export default ScriptElement;
+export default ReactComment;
