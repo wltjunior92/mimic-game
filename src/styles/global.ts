@@ -8,13 +8,17 @@ export default createGlobalStyle`
   }
 
   body {
+    ::-webkit-scrollbar {
+      display: none;
+    }
     background: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
-    font:  400 16px Roboto, sans-serif;
+    font: 400 16px Roboto, sans-serif;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
   }
 
   button {
@@ -28,9 +32,10 @@ export default createGlobalStyle`
     align-items: center;
     justify-content: center;
 
-    width: fill-available;
+    padding-top: 90px;
 
-    max-width: 1100px;
+    width: 100%;
+    max-width: 1300px;
   }
 
   .container .container_content {

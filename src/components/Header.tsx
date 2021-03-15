@@ -1,40 +1,42 @@
-import { useRouter } from "next/dist/client/router";
+import Link from 'next/link'
 
 import { HeaderContainer } from '../styles/components/Header';
 
 export default function Header() {
-  const router = useRouter();
 
   return (
     <HeaderContainer>
-      <img src="logo_small.svg" alt="Mimicando" />
+      <div className="container">
+        <Link href="/">
+          <a>
+            <img src="logo.png " alt="Mimic Fácil" />
+          </a>
+        </Link>
 
-      <div className="buttons">
-        <button
-          onClick={e => {
-            e.preventDefault
-            router.push('/')
-          }}
-        >
-          Home
-        </button>
-        <button
-          onClick={e => {
-            e.preventDefault
-            router.push('/cards')
-          }}
-        >
-          Cartas
-        </button>
-        <button
-          onClick={e => {
-            e.preventDefault
-            router.push('/themes')
-          }}
-        >
-          Temas
-        </button>
+        <ul>
+          <li>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/board">
+              <a>Tabuleiro</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/cards">
+              <a>Cartas</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/themes">
+              <a>Temas</a>
+            </Link>
+          </li>
+        </ul>
       </div>
+
     </HeaderContainer>
   )
 }

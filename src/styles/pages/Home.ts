@@ -2,265 +2,107 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  flex: 1;
   width: 100%;
 
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
-  .data_settings_container {
+  h1 {
+    color: ${props => props.theme.colors.title};
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    text-align: center;
+    color: ${props => props.theme.colors.subTitle};
+    font-weight: 400;
+  }
+
+  p {
+    color: ${props => props.theme.colors.text};
+    line-height: 1.85rem;
+
+    strong {
+      color: ${props => props.theme.colors.orange};
+    }
+  }
+
+  header {
     display: flex;
-    margin-top: 1rem;
-
     justify-content: center;
-    width: 100%;
-  }
-
-  .add_players_message {
-    margin-top: 2rem;
-    font-size: 1.5rem;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-  }
 
-  @media(max-width: 1000px) {
-    .data_settings_container {
+    div {
+      margin-top: 2rem;
+
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
-    }
 
-    .add_players_message {
-      font-size: 1.2rem;
-      text-align: center;
+      div:first-child {
+        margin-right: 8rem;
+      }
+
+      div:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        background-image: url("cont_img.png");
+        width: 428px;
+        height: 207px;
+
+        margin: 2rem 3rem;
+
+        h2 {
+          color: ${props => props.theme.colors.title};
+          font-weight: 400;
+        }
+      }
+    }
+    img {
+      height: 35rem;
     }
   }
-`
 
-export const Settings = styled.div`
-  height: 100%;
-  padding: 0.8rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  .time_settings {
+  main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    h3 {
-      text-align: center;
-    }
-
-    div {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      margin-top: 1.25rem;
-
-      input {
-        border: 0;
-        background-color: #CDD7F1;
-        padding: 0 1.8rem;
-        max-width: 100px;
-        height: 1.5rem;
-        margin-left: 1rem;
-
-        border-radius: 10px;
-      }
-    }
-  }
-
-  .insert_player {
-    padding-top: 0.8rem;
-    border-top: solid 1px #CDD7F1;
-    margin-top: 1.5rem;
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    h1 {
-      font-size: 1.8rem;
-    }
-
-    div {
-      margin-top: 1rem;
-      display: flex;
-      flex: 1;
-
-      input {
-        border: 0;
-        background-color: #CDD7F1;
-        padding: 0 1.8rem;
-        max-width: 140px;
-        height: 1.5rem;
-        margin-left: 1rem;
-
-        border-radius: 10px;
-      }
-    }
-    align-items: center;
-    justify-content: center;
-  }
-
-  button {
-    border: 0;
-    border-radius: 5px;
-    height: 50px;
-    width: 70%;
-
-    margin-top: 1.5rem;
-    color: #fff;
-    background: ${props => props.theme.colors.green};
-
-    font-weight: 600;
-
-    transition: filter 0.2s;
-  }
-
-  button:hover {
-    filter: brightness(90%);
   }
 `
 
-export const Countdown = styled.div`
-  height: 100%;
-  padding: 0.8rem;
-  margin-left: 2rem;
-
+export const ContentSection = styled.section`
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  border-radius: 8px;
-  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.2);
-
-  span {
-    font-size: 6.25rem;
-    margin: 0 0.5rem;
-
+  img {
+    margin: 0 5rem 0 0;
   }
 
-  > div{
-    display: flex;
-    align-items: center;
-    font-family: Rajdhani;
-    font-weight: 600;
-    color: ${props => props.theme.colors.title};
+  p {
+    margin-bottom: 0.8rem;
+    width: 25rem;
+  }
 
+  div {
+    padding: 5px 1rem;
+  }
+
+  .only_text {
+    display: flex;
+    align-items: flex-start;
 
     div {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-
-
-      background: #fff;
-      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
-      border-radius: 5px;
-      font-size: 6.5rem;
-      text-align: center;
-
-
-      span {
-        flex: 1;
-        width: 3.5rem;
+      h1 {
+        padding: 10px 0;
       }
     }
   }
-  @media(max-width: 1000px) {
-    margin-left: 0;
-    margin-top: 1rem;
-  }
-`
-
-export const StartCountdownButton = styled.button`
-  border: 0;
-  border-radius: 5px;
-  height: 50px;
-  width: 70%;
-
-  margin-top: 1.5rem;
-  color: #fff;
-  background: ${props => props.theme.colors.green};
-
-  font-size: 1.5rem;
-  font-weight: 600;
-
-  transition: filter 0.2s;
-
-  :hover {
-    filter: brightness(90%);
-  }
-`
-
-export const StopCountdownButton = styled.button`
-border: 0;
-  border-radius: 5px;
-  height: 50px;
-  width: 70%;
-
-  margin-top: 1.5rem;
-  color: #fff;
-  background: ${props => props.theme.colors.red};
-
-  font-size: 1.5rem;
-  font-weight: 600;
-
-  transition: filter 0.2s;
-
-  :hover {
-    filter: brightness(80%);
-  }
-`
-
-export const ResetCountdownButton = styled.button`
-border: 0;
-  border-radius: 5px;
-  height: 50px;
-  width: 70%;
-
-  margin-top: 1.5rem;
-  color: #fff;
-  background: ${props => props.theme.colors.yellow};
-
-  font-size: 1.5rem;
-  font-weight: 600;
-
-  transition: filter 0.2s;
-
-  :hover {
-    filter: brightness(90%);
-  }
-`
-export const PlayersDisplay = styled.div`
-  height: auto;
-  width: auto;
-  max-width: 70%;
-  padding: 0.4rem;
-  margin: 1.5rem 1rem;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  border-radius: 8px;
-  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.2);
 `

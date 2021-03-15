@@ -49,7 +49,6 @@ export default function Cards() {
         description="Envie-nos sugestões de temas"
         image="logo_small.svg"
       />
-      <Header />
 
       <ContentContainer>
         {hasSendedMessage && (

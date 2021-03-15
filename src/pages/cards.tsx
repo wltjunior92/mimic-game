@@ -61,7 +61,6 @@ export default function Cards() {
         description="Sorteie uma carta e desafie seus amigos"
         image="logo_small.svg"
       />
-      <Header />
 
       <ContentContainer>
         <SettingsContainer>
