@@ -1,10 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import CardItem from "../components/CardItem";
-import Header from "../components/Header";
 
 import { Container, SettingsContainer, ContentContainer, CardContainer } from "../styles/pages/Cards";
-import { TextContainer } from '../styles/components/TextContentContainer'
+
 import DrawItens from "../utils/DrawItems";
 
 import themes from '../data/themes.json'
@@ -12,8 +11,12 @@ import types from '../data/types.json'
 import itens from '../data/itens.json'
 import SEO from "../components/SEO";
 import TextContentContainer from "../components/TextContentContainer";
+import { Select } from "../styles/components/Select";
+import { Input } from "../styles/components/Input";
+import { ContentSection } from "../styles/pages/Home";
 
 export default function Cards() {
+
   const [theme, setTheme] = useState('');
   const [type, setType] = useState('');
   const [quantity, setQuantity] = useState(5);
@@ -63,83 +66,172 @@ export default function Cards() {
       />
 
       <ContentContainer>
-        <SettingsContainer>
-          <div className="combobox_container theme">
-            <label>Tema: </label>
-            <select onChange={e => setTheme(e.target.value)}>
-              <option>--Selecione--</option>
-              {themes.map(theme => (
-                <option key={theme.value} value={theme.value}>{theme.theme}</option>
-              ))}
-            </select>
-          </div>
-          <div className="combobox_container type">
-            <label>Tipo: </label>
-            <select onChange={e => setType(e.target.value)}>
-              <option>--Selecione--</option>
-              {types.map(type => (
-                <option key={type.value} value={type.value}>{type.type}</option>
-              ))}
-            </select>
-          </div>
-
-          <div className="quantity_container">
-            <label>Quantidade:</label>
-            <input
-              type="text"
-              value={quantity}
-              onChange={e => setQuantity(Number(e.target.value))}
-            />
-          </div>
-
-          <button type="button" onClick={handleDrawCard}>
-            Sortear carta
+        <div>
+          <SettingsContainer>
+            <div>
+              <Select onChange={e => setTheme(e.target.value)}>
+                <option value="" disabled selected hidden>Selecione o Tema</option>
+                {themes.map(theme => (
+                  <option key={theme.value} value={theme.value}>{theme.theme}</option>
+                ))}
+              </Select>
+            </div>
+            <div style={{ marginTop: '1.25rem' }}>
+              <Select onChange={e => setType(e.target.value)}>
+                <option value="" disabled selected hidden>Selecione o Tipo</option>
+                {types.map(type => (
+                  <option key={type.value} value={type.value}>{type.type}</option>
+                ))}
+              </Select>
+            </div>
+            <div style={{ marginTop: '1.25rem', width: '100%' }}>
+              <Input
+                type="text"
+                placeholder="Quantos itens?"
+                value={quantity}
+                onChange={e => setQuantity(Number(e.target.value))}
+                style={{
+                  margin: 0,
+                  width: '100%'
+                }}
+              />
+            </div>
+            <button type="button" onClick={handleDrawCard}>
+              Sortear carta
           </button>
-        </SettingsContainer>
-
-        {cardItens.length !== 0 && (
+          </SettingsContainer>
+          <ContentSection style={{
+            width: '80%',
+            marginTop: '4rem'
+          }}>
+            <div style={{}}>
+              <h1 style={{
+                marginBottom: '1.5rem',
+                borderBottom: '2px solid #EE861E',
+                paddingBottom: '1.5rem',
+                fontWeight: 400
+              }}>
+                Como funciona a página<br />
+                de cartas?
+              </h1>
+              <p>
+                Com mais de 1500 itens (e aumentando) você pode escolher um tema e um tipo para
+                poder sortear as cartas!
+              </p>
+            </div>
+          </ContentSection>
+        </div>
+        {cardItens.length !== 0 ? (
           <CardContainer>
             {cardItens.map(item => (
               <CardItem key={item.id}>{item.item}</CardItem>
             ))}
           </CardContainer>
+        ) : (
+          <img src="card_img.png" style={{
+            width: '320px'
+          }} />
         )}
-
       </ContentContainer>
-      <TextContentContainer>
-        <header>
-          <h2>Como funciona a página de cartas?</h2>
-          <p>
-            Com mais de <strong>1500 itens (e aumentando)</strong> você pode escolher um tema e um
-            tipo para poder sortear as cartas!
-          </p>
-        </header>
-        <main style={{ marginBottom: '5rem' }}>
-          <h2 style={{ margin: '2rem 0', textAlign: 'center' }}>Os tipos a serem selecionados são:</h2>
-          <h2>Objeto</h2>
-          <p>
-            Representa um objeto mesmo, como uma colher, um abajur, um sapato, ou Oboé 😬.
-          </p>
-          <h2>Ação ou Habilidade</h2>
-          <p>
-            A definição varia pois depende do <strong>tema selecionado</strong>.<br />
-            Digamos que o tema selecionado seja o de <strong>"Heróis da Marvel"</strong>. Existem
-            várias ações do mundo real que um personagem que se enquadra nesse tema tbm pode realizar,
-            como "pular" por exemplo, por isso, quando nesses casos, serão sorteados habilidades de
-            algum personagem desse universo, como <strong>"Se transformar no Hulk"</strong> por exemplo 👍.
-          </p>
-          <h2>Personagem ou Pessoa</h2>
-          <p>
-            Esse também é bastante auto explicativo 😅. Esse tipo trás como resultados nomes de
-            pessoas famosas ou personagens relacionados ao tema escolhido.
-          </p>
-          <h2>Mix</h2>
-          <p>
-            Esse <strong>mistura todos os três tipos</strong> e pode sortear itens variados.
-          </p>
-        </main>
-      </TextContentContainer>
 
+      <ContentSection style={{
+        width: '80%',
+        marginTop: '4rem',
+        marginBottom: '4rem'
+      }}>
+        <h1 style={{
+          fontSize: '2rem'
+        }}>
+          Os Tipos disponíveis são:
+        </h1>
+      </ContentSection>
+
+      <ContentSection style={{ marginBottom: '4rem' }}>
+        <div style={{ maxWidth: '20rem', marginRight: '6rem' }}>
+          <h1 style={{ marginBottom: '2rem' }}>
+            <div
+              style={{
+                width: '45px',
+                borderBottom: '2px solid #3BC552',
+                marginBottom: '10px'
+              }}
+            />
+            Objeto
+          </h1>
+          <p>Representa um objeto mesmo, como uma colher, um abajur, um sapato, ou Oboé</p>
+
+        </div>
+        <img src="obj_image.svg" style={{ height: '15rem' }} />
+      </ContentSection>
+
+      <ContentSection style={{ marginBottom: '4rem' }}>
+        <img src="action_image.svg" style={{ width: '20rem' }} />
+        <div style={{ maxWidth: '30rem', marginLeft: '6rem' }}>
+          <h1 style={{ marginBottom: '2rem' }}>
+            <div
+              style={{
+                width: '45px',
+                borderBottom: '2px solid #D42828',
+                marginBottom: '10px'
+              }}
+            />
+            Ação ou Habilidade
+          </h1>
+          <p>
+            A definição varia pois depende do tema selecionado.
+          </p>
+
+          <p>
+            Digamos que o tema selecionado seja o de "Heróis da Marvel".<br />
+            Existem várias ações do mundo real que um personagem que<br />
+            se enquadra nesse tema tbm pode realizar, como "pular" por<br />
+            exemplo, por isso, quando nesses casos, serão sorteados<br />
+            habilidades de algum personagem desse universo, como<br />
+            "Se transformar no Hulk" por exemplo.
+          </p>
+        </div>
+      </ContentSection>
+
+      <ContentSection style={{ marginBottom: '4rem' }}>
+        <div style={{ maxWidth: '20rem', marginRight: '6rem' }}>
+          <h1 style={{ marginBottom: '2rem' }}>
+            <div
+              style={{
+                width: '45px',
+                borderBottom: '2px solid #EE861E',
+                marginBottom: '10px'
+              }}
+            />
+            Personagem ou Pessoa
+          </h1>
+          <p>
+            Esse também é bastante auto explicativo. Esse tipo trás como resultados nomes de
+            pessoas famosas ou personagens relacionados ao
+            tema escolhido.
+          </p>
+
+        </div>
+        <img src="character_image.svg" style={{ height: '15rem' }} />
+      </ContentSection>
+
+      <ContentSection style={{ marginBottom: '4rem' }}>
+        <img src="mix_image.svg" style={{ width: '20rem' }} />
+        <div style={{ maxWidth: '30rem', marginLeft: '6rem' }}>
+          <h1 style={{ marginBottom: '2rem' }}>
+            <div
+              style={{
+                marginBottom: '10px',
+                padding: 0
+              }}>
+              <img src="colored_line.svg" />
+            </div>
+            Mix
+          </h1>
+          <p>
+            Esse tipo mistura todos os três tipos e pode sortear itens variados.
+          </p>
+        </div>
+      </ContentSection>
 
     </Container>
   )

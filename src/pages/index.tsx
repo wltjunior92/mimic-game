@@ -88,7 +88,7 @@ const Home: React.FC = () => {
               jogador que irá realizar as mímicas para sortear os desafios!
             </p>
           </div>
-          <img src="example_img.svg" style={{ height: '25rem' }} />
+          <img src="example_img.svg" style={{ height: '20rem' }} />
         </ContentSection>
 
         <h1

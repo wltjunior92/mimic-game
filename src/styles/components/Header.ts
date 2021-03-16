@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   position: fixed;
 
+  z-index: 1;
+
   right: 0;
   width: 100vw;
   background: #FAFAFA;

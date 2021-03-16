@@ -35,7 +35,7 @@ export default createGlobalStyle`
     padding-top: 90px;
 
     width: 100%;
-    max-width: 1300px;
+    max-width: 900px;
   }
 
   .container .container_content {

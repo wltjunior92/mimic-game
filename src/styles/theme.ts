@@ -1,6 +1,7 @@
 const theme = {
   colors: {
     background: '#212121',
+    darkText: '#424242',
     text: '#BDBDBD',
     title: '#fafafa',
     subTitle: '#F5F5F5',

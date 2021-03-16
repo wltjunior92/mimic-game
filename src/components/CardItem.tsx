@@ -13,8 +13,14 @@ export default function CardItem(props: CardItemProps) {
   }
   return (
     <ItemContainer onClick={changeBackgroundColor} isChecked={isChecked}>
-      <div></div>
-      {props.children}
+      <div>
+        {isChecked &&
+          <img src="icons/material-black-check.svg" style={{ height: '13px' }} />
+        }
+      </div>
+      <h4>
+        {props.children}
+      </h4>
     </ItemContainer>
   )
 }

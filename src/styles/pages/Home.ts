@@ -6,8 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  width: 100%;
-
+  max-width: 900px;
 
   h1 {
     color: ${props => props.theme.colors.title};
@@ -34,6 +33,8 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 
+    width: fit-content;
+
     div {
       margin-top: 2rem;
 
@@ -42,7 +43,7 @@ export const Container = styled.div`
       justify-content: center;
 
       div:first-child {
-        margin-right: 8rem;
+        margin-right: 4rem;
       }
 
       div:last-child {
@@ -53,19 +54,23 @@ export const Container = styled.div`
         text-align: center;
 
         background-image: url("cont_img.png");
-        width: 428px;
-        height: 207px;
+        background-size: 300px auto;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 145px;
 
         margin: 2rem 3rem;
 
         h2 {
           color: ${props => props.theme.colors.title};
           font-weight: 400;
+          font-size: 1rem;
         }
       }
     }
+
     img {
-      height: 35rem;
+      height: 20rem;
     }
   }
 
@@ -82,13 +87,16 @@ export const ContentSection = styled.section`
   align-items: center;
   justify-content: center;
 
-  img {
-    margin: 0 5rem 0 0;
-  }
+  max-width: 900px;
 
   p {
     margin-bottom: 0.8rem;
-    width: 25rem;
+    width: auto;
+    color: ${props => props.theme.colors.text};
+  }
+
+  h1 {
+    color: ${props => props.theme.colors.title}
   }
 
   div {
