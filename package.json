@@ -19,6 +19,7 @@
     "prismic-javascript": "^3.0.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-responsive-carousel": "^3.2.14",
     "styled-components": "^5.2.1",
     "swr": "^0.4.2",
     "yup": "^0.32.9"

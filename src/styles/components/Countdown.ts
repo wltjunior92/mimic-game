@@ -50,6 +50,11 @@ export const CountdownContainer = styled.div`
       }
     }
   }
+
+  @media(max-width: 1000px) {
+    flex-direction: row;
+    max-width: 90vw;
+  }
 `
 
 export const CountdownTimer = styled.div`
@@ -65,10 +70,19 @@ export const CountdownTimer = styled.div`
   span {
     font-size: 6.25rem;
     margin: 0 0.5rem;
+
+    @media(max-width: 1000px) {
+      font-size: 2rem;
+      margin: 0 0.15rem;
+    }
   }
 
   .timer_divider {
     color: ${props => props.theme.colors.subTitle};
+
+    @media(max-width: 1000px) {
+      font-size: 2rem;
+    }
   }
 
   > div{
@@ -91,12 +105,17 @@ export const CountdownTimer = styled.div`
       span {
         flex: 1;
         width: 3.5rem;
+
+        @media(max-width: 1000px) {
+          width: 1rem;
+        }
       }
     }
   }
   @media(max-width: 1000px) {
+    flex-direction: row;
     margin-left: 0;
-    margin-top: 1rem;
+    margin-top: 0;
   }
 `
 
@@ -118,6 +137,15 @@ export const StartCountdownButton = styled.button`
   :hover {
     background: ${props => props.theme.colors.green};
   }
+
+  @media(max-width: 1000px) {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0;
+    height: 42px;
+    width: 100px;
+    margin-left: 8px;
+  }
 `
 
 export const StopCountdownButton = styled.button`
@@ -138,6 +166,15 @@ border: 0;
   :hover {
     filter: brightness(80%);
   }
+
+  @media(max-width: 1000px) {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0;
+    height: 42px;
+    width: 100px;
+    margin-left: 8px;
+  }
 `
 
 export const ResetCountdownButton = styled.button`
@@ -157,5 +194,14 @@ border: 0;
 
   :hover {
     background: ${props => props.theme.colors.darkOrange};
+  }
+
+  @media(max-width: 1000px) {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0;
+    height: 42px;
+    width: 100px;
+    margin-left: 8px;
   }
 `

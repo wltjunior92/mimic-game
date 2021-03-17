@@ -6,19 +6,37 @@ export const Container = styled.div`
   flex: 1;
   width: 100%;
 
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media(max-width: 1000px) {
+    margin-bottom: 0;
+  }
+
+  .ad_hotmart {
+    display: flex;
+    img {
+      height: 300px;
+      width: 300px;
+      @media(max-width: 800px) {
+        height: 170px;
+        width: 170px;
+      }
+    }
+  }
 `
 
 export const ContentContainer = styled.div`
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
 
   width: 100%;
 
   @media(max-width: 1000px) {
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,12 +48,11 @@ export const SettingsContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 
-  margin-right: 1.5rem;
-  margin-left: 6rem;
+  margin-right: 3rem;
 
-  max-width: 272px;
+  width: 272px;
 
   button {
     border: 0;
@@ -56,7 +73,10 @@ export const SettingsContainer = styled.div`
   }
 
   @media(max-width: 1000px) {
-    margin: 0 0 1.25rem 0;
+    align-items: stretch;
+    width: 85vw;
+    margin: 0;
+    margin-bottom: 3rem;
   }
 `
 

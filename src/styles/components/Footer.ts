@@ -5,15 +5,19 @@ export const FooterContainer = styled.footer`
 
   right: 0;
 
-  height: 203px;
+  height: 123px;
   width: 100vw;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background: #424242;
+  background: transparent;
   img {
-    height: 190px;
+    width: 12rem;
+  }
+
+  @media(max-width: 1000px) {
+    bottom: -93vw;
   }
 `

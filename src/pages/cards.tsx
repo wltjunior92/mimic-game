@@ -10,8 +10,7 @@ import themes from '../data/themes.json'
 import types from '../data/types.json'
 import itens from '../data/itens.json'
 import SEO from "../components/SEO";
-import TextContentContainer from "../components/TextContentContainer";
-import { Select } from "../styles/components/Select";
+import Select from "../components/Select";
 import { Input } from "../styles/components/Input";
 import { ContentSection } from "../styles/pages/Home";
 
@@ -24,6 +23,24 @@ export default function Cards() {
   const [cardItens, setCardItens] = useState([])
 
   const [cachedItens, setCachedItens] = useState([])
+
+  const [imgProdutoLeft, setImgProdutoLeft] = useState(1)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setImgProdutoLeft(imgProdutoLeft + 1)
+    }, 10000)
+  }, [])
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (imgProdutoLeft === 3) {
+        setImgProdutoLeft(1)
+      } else {
+        setImgProdutoLeft(imgProdutoLeft + 1)
+      }
+    }, 10000)
+  }, [imgProdutoLeft])
 
   function handleDrawCard() {
     setCardItens([])
@@ -66,25 +83,25 @@ export default function Cards() {
       />
 
       <ContentContainer>
-        <div>
+        <div className="left_content">
           <SettingsContainer>
             <div>
-              <Select onChange={e => setTheme(e.target.value)}>
-                <option value="" disabled selected hidden>Selecione o Tema</option>
+              <Select onChange={setTheme}>
+                <option>Escolha o Tema</option>
                 {themes.map(theme => (
                   <option key={theme.value} value={theme.value}>{theme.theme}</option>
                 ))}
               </Select>
             </div>
-            <div style={{ marginTop: '1.25rem' }}>
-              <Select onChange={e => setType(e.target.value)}>
-                <option value="" disabled selected hidden>Selecione o Tipo</option>
+            <div>
+              <Select onChange={setType}>
+                <option>Selecione o Tipo</option>
                 {types.map(type => (
                   <option key={type.value} value={type.value}>{type.type}</option>
                 ))}
               </Select>
             </div>
-            <div style={{ marginTop: '1.25rem', width: '100%' }}>
+            <div>
               <Input
                 type="text"
                 placeholder="Quantos itens?"
@@ -100,26 +117,7 @@ export default function Cards() {
               Sortear carta
           </button>
           </SettingsContainer>
-          <ContentSection style={{
-            width: '80%',
-            marginTop: '4rem'
-          }}>
-            <div style={{}}>
-              <h1 style={{
-                marginBottom: '1.5rem',
-                borderBottom: '2px solid #EE861E',
-                paddingBottom: '1.5rem',
-                fontWeight: 400
-              }}>
-                Como funciona a página<br />
-                de cartas?
-              </h1>
-              <p>
-                Com mais de 1500 itens (e aumentando) você pode escolher um tema e um tipo para
-                poder sortear as cartas!
-              </p>
-            </div>
-          </ContentSection>
+
         </div>
         {cardItens.length !== 0 ? (
           <CardContainer>
@@ -137,25 +135,55 @@ export default function Cards() {
       <ContentSection style={{
         width: '80%',
         marginTop: '4rem',
+        marginBottom: '1rem',
+      }}>
+        <div>
+          <h1 style={{
+            marginBottom: '1.5rem',
+            borderBottom: '2px solid #EE861E',
+            paddingBottom: '1.5rem',
+            fontWeight: 400,
+            textAlign: 'center'
+          }}>
+            Como funciona a página<br />
+            de cartas?
+          </h1>
+          <p style={{ textAlign: 'center' }}>
+            Com mais de 1500 itens (e aumentando) você pode escolher um tema e um tipo para
+            poder sortear as cartas!
+          </p>
+        </div>
+      </ContentSection>
+
+      <div className="ad_hotmart">
+        <div>
+          <a target="_blank" href="https://go.hotmart.com/O48825232C">
+            <img src={`produtos/colorindo-criativo${imgProdutoLeft}.png`} />
+          </a>
+        </div>
+        <div>
+          <a target="_blank" href="https://go.hotmart.com/W48825225G">
+            <img src={`produtos/combo-criativo${imgProdutoLeft}.png`} />
+          </a>
+        </div>
+      </div>
+
+      <ContentSection style={{
+        width: '80%',
+        marginTop: '4rem',
         marginBottom: '4rem'
       }}>
         <h1 style={{
-          fontSize: '2rem'
+          fontSize: '1.5rem'
         }}>
           Os Tipos disponíveis são:
         </h1>
       </ContentSection>
 
-      <ContentSection style={{ marginBottom: '4rem' }}>
-        <div style={{ maxWidth: '20rem', marginRight: '6rem' }}>
+      <ContentSection appearence="obj" invert={true}>
+        <div>
           <h1 style={{ marginBottom: '2rem' }}>
-            <div
-              style={{
-                width: '45px',
-                borderBottom: '2px solid #3BC552',
-                marginBottom: '10px'
-              }}
-            />
+            <div className="line_style" />
             Objeto
           </h1>
           <p>Representa um objeto mesmo, como uma colher, um abajur, um sapato, ou Oboé</p>
@@ -164,17 +192,38 @@ export default function Cards() {
         <img src="obj_image.svg" style={{ height: '15rem' }} />
       </ContentSection>
 
-      <ContentSection style={{ marginBottom: '4rem' }}>
+      <div style={{ marginTop: '2rem' }} className="ads">
+        <iframe
+          style={{ width: '103px', height: '206px' }}
+          marginWidth={5}
+          marginHeight={0}
+          scrolling="no"
+          frameBorder="0"
+          src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=wltjunior-20&marketplace=amazon&amp;region=BR&placement=B07W6PD7QJ&asins=B07W6PD7QJ&linkId=d2e40b8b29b27d8a1e74fa31e4633a83&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+        </iframe>
+        <iframe
+          style={{ width: '103px', height: '206px' }}
+          marginWidth={0}
+          marginHeight={0}
+          scrolling="no"
+          frameBorder="0"
+          src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=wltjunior-20&marketplace=amazon&amp;region=BR&placement=8532505708&asins=8532505708&linkId=468567fa55253d8580572d0404b453dc&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+        </iframe>
+        <iframe
+          style={{ width: '103px', height: '206px' }}
+          marginWidth={0}
+          marginHeight={0}
+          scrolling="no"
+          frameBorder="0"
+          src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=wltjunior-20&marketplace=amazon&amp;region=BR&placement=8595086354&asins=8595086354&linkId=4970c1efc35c602cd543c65d577bbbec&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+        </iframe>
+      </div>
+
+      <ContentSection appearence="act">
         <img src="action_image.svg" style={{ width: '20rem' }} />
-        <div style={{ maxWidth: '30rem', marginLeft: '6rem' }}>
+        <div>
           <h1 style={{ marginBottom: '2rem' }}>
-            <div
-              style={{
-                width: '45px',
-                borderBottom: '2px solid #D42828',
-                marginBottom: '10px'
-              }}
-            />
+            <div className="line_style" />
             Ação ou Habilidade
           </h1>
           <p>
@@ -182,26 +231,33 @@ export default function Cards() {
           </p>
 
           <p>
-            Digamos que o tema selecionado seja o de "Heróis da Marvel".<br />
-            Existem várias ações do mundo real que um personagem que<br />
-            se enquadra nesse tema tbm pode realizar, como "pular" por<br />
-            exemplo, por isso, quando nesses casos, serão sorteados<br />
-            habilidades de algum personagem desse universo, como<br />
+            Digamos que o tema selecionado seja o de "Heróis da Marvel".
+            Existem várias ações do mundo real que um personagem que
+            se enquadra nesse tema tbm pode realizar, como "pular" por
+            exemplo, por isso, quando nesses casos, serão sorteados
+            habilidades de algum personagem desse universo, como
             "Se transformar no Hulk" por exemplo.
           </p>
         </div>
       </ContentSection>
 
-      <ContentSection style={{ marginBottom: '4rem' }}>
-        <div style={{ maxWidth: '20rem', marginRight: '6rem' }}>
+      <div style={{ margin: '3rem 0' }} className="ad_hotmart">
+        <div>
+          <a target="_blank" href="https://go.hotmart.com/W48825225G">
+            <img src={`produtos/combo-criativo${imgProdutoLeft}.png`} />
+          </a>
+        </div>
+        <div>
+          <a target="_blank" href="https://go.hotmart.com/O48825232C">
+            <img src={`produtos/colorindo-criativo${imgProdutoLeft}.png`} />
+          </a>
+        </div>
+      </div>
+
+      <ContentSection appearence="pers" invert={true}>
+        <div>
           <h1 style={{ marginBottom: '2rem' }}>
-            <div
-              style={{
-                width: '45px',
-                borderBottom: '2px solid #EE861E',
-                marginBottom: '10px'
-              }}
-            />
+            <div className="line_style" />
             Personagem ou Pessoa
           </h1>
           <p>
@@ -214,15 +270,38 @@ export default function Cards() {
         <img src="character_image.svg" style={{ height: '15rem' }} />
       </ContentSection>
 
-      <ContentSection style={{ marginBottom: '4rem' }}>
-        <img src="mix_image.svg" style={{ width: '20rem' }} />
-        <div style={{ maxWidth: '30rem', marginLeft: '6rem' }}>
+      <div style={{ marginTop: '2rem' }} className="ads">
+        <iframe
+          style={{ width: '103px', height: '206px' }}
+          marginWidth={5}
+          marginHeight={0}
+          scrolling="no"
+          frameBorder="0"
+          src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=wltjunior-20&marketplace=amazon&amp;region=BR&placement=B07HGG85HL&asins=B07HGG85HL&linkId=6110508e6f31dd4b3eeeb0c40384a00a&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+        </iframe>
+        <iframe
+          style={{ width: '103px', height: '206px' }}
+          marginWidth={0}
+          marginHeight={0}
+          scrolling="no"
+          frameBorder="0"
+          src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=wltjunior-20&marketplace=amazon&amp;region=BR&placement=B01MG62Z5M&asins=B01MG62Z5M&linkId=674fd241289296cc4e8b20a89063f14a&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+        </iframe>
+        <iframe
+          style={{ width: '103px', height: '206px' }}
+          marginWidth={0}
+          marginHeight={0}
+          scrolling="no"
+          frameBorder="0"
+          src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=wltjunior-20&marketplace=amazon&amp;region=BR&placement=B07SNL6QR8&asins=B07SNL6QR8&linkId=4a1b5da5800899aa3df442dc66776a17&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+        </iframe>
+      </div>
+
+      <ContentSection appearence="mix" style={{ marginBottom: 0, paddingBottom: 0 }}>
+        <img src="mix_image.svg" />
+        <div>
           <h1 style={{ marginBottom: '2rem' }}>
-            <div
-              style={{
-                marginBottom: '10px',
-                padding: 0
-              }}>
+            <div className="line_style" >
               <img src="colored_line.svg" />
             </div>
             Mix
@@ -232,6 +311,19 @@ export default function Cards() {
           </p>
         </div>
       </ContentSection>
+
+      <div style={{ marginTop: '2rem' }} className="ad_hotmart">
+        <div>
+          <a target="_blank" href="https://go.hotmart.com/G48825269O">
+            <img src={`produtos/metodoFanart-criativo${imgProdutoLeft}.png`} />
+          </a>
+        </div>
+        <div>
+          <a target="_blank" href="https://go.hotmart.com/O48825232C">
+            <img src={`produtos/colorindo-criativo${imgProdutoLeft}.png`} />
+          </a>
+        </div>
+      </div>
 
     </Container>
   )

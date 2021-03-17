@@ -11,6 +11,7 @@ export default createGlobalStyle`
     ::-webkit-scrollbar {
       display: none;
     }
+    position: relative;
     background: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
     font: 400 16px Roboto, sans-serif;
@@ -44,9 +45,65 @@ export default createGlobalStyle`
   }
 
   .ads {
-    display: block;
     width: auto;
     height: auto;
+  }
+
+  .ad_top {
+    display: flex;
+
+    @media(max-width: 800px) {
+      display: none;
+    }
+  }
+
+  .ad_left {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 1%;
+    top: 100px;
+
+    >div{
+      position: relative;
+
+      .upper {
+        position: absolute;
+      }
+      .down {
+        position: absolute;
+        top: 251px;
+      }
+    }
+
+    @media(max-width: 800px) {
+      display: none;
+    }
+  }
+
+  .ad_right {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 15%;
+    top: 100px;
+    z-index: 1;
+
+    >div{
+      position: relative;
+
+      .upper {
+        position: absolute;
+      }
+      .down {
+        position: absolute;
+        top: 251px;
+      }
+    }
+
+    @media(max-width: 800px) {
+      display: none;
+    }
   }
 
   @media(max-width: 1000px) {
@@ -57,4 +114,4 @@ export default createGlobalStyle`
       justify-content: center;
     }
   }
-`;
+`

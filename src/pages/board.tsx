@@ -9,10 +9,10 @@ import {
   SortTypeButton,
   AddPlayerContainer
 } from '../styles/pages/Board';
-import { Select } from '../styles/components/Select'
 
 import themes from '../data/themes.json'
 import types from '../data/typesForDraw.json'
+import Select from '../components/Select';
 
 interface Player {
   id: string;
@@ -29,6 +29,24 @@ const Board: React.FC = () => {
 
   const [playerName, setPlayerName] = useState('')
   const [playersList, setPlayersList] = useState<Player[]>([])
+
+  const [imgProdutoLeft, setImgProdutoLeft] = useState(1)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setImgProdutoLeft(imgProdutoLeft + 1)
+    }, 10000)
+  }, [])
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (imgProdutoLeft === 3) {
+        setImgProdutoLeft(1)
+      } else {
+        setImgProdutoLeft(imgProdutoLeft + 1)
+      }
+    }, 10000)
+  }, [imgProdutoLeft])
 
   const colors: string[] = [
     '#86CCDB',
@@ -102,27 +120,31 @@ const Board: React.FC = () => {
         <Countdown />
         <div className="sorting_settings_container">
           <div className="sorting_settings">
-            <Select>
-              <option value="" disabled selected hidden>Escolha o Tema!</option>
-              {themes.map(theme => (
-                <option key={theme.value} value={theme.value}>{theme.theme}</option>
-              ))}
-            </Select>
-            <SortTypeButton isSorting={isDrawingType}>
-              <button type="button" onClick={handleDrawType}>
-                {type === '' && !isDrawingType ? (
-                  <h2>Clique para sortear<br />um tipo...</h2>
-                ) : (
-                  <>
-                    {isDrawingType ? (
-                      <h2></h2>
-                    ) : (
-                      <h2>{type}</h2>
-                    )}
-                  </>
-                )}
-              </button>
-            </SortTypeButton>
+
+            <div className="sorting_type">
+              <Select size="small" onChange={() => { }}>
+                <option>Defina o Tema</option>
+                {themes.map(theme => (
+                  <option key={theme.value} value={theme.value}>{theme.theme}</option>
+                ))}
+              </Select>
+              <SortTypeButton isSorting={isDrawingType}>
+                <button type="button" onClick={handleDrawType}>
+                  {type === '' && !isDrawingType ? (
+                    <h2>Clique para sortear<br />um tipo...</h2>
+                  ) : (
+                    <>
+                      {isDrawingType ? (
+                        <h2></h2>
+                      ) : (
+                        <h2>{type}</h2>
+                      )}
+                    </>
+                  )}
+                </button>
+              </SortTypeButton>
+            </div>
+
             <AddPlayerContainer>
               <form onSubmit={event => insertPlayer(event)}>
                 <input
@@ -167,6 +189,18 @@ const Board: React.FC = () => {
         </h1>
       )}
 
+      <div className="ad_hotmart">
+        <div>
+          <a target="_blank" href="https://go.hotmart.com/G48825269O">
+            <img src={`produtos/metodoFanart-criativo${imgProdutoLeft}.png`} />
+          </a>
+        </div>
+        <div>
+          <a target="_blank" href="https://go.hotmart.com/O48825232C">
+            <img src={`produtos/colorindo-criativo${imgProdutoLeft}.png`} />
+          </a>
+        </div>
+      </div>
     </Container>
   )
 }

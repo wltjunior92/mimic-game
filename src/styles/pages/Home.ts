@@ -8,15 +8,31 @@ export const Container = styled.div`
 
   max-width: 900px;
 
+  @media(max-width: 1000px) {
+    max-width: 95vw;
+  }
+
   h1 {
     color: ${props => props.theme.colors.title};
     margin-bottom: 2rem;
+
+    @media(max-width: 1000px) {
+      font-size: 1.6rem;
+      max-width: 90vw;
+
+      text-align: center;
+    }
   }
 
   h3 {
     text-align: center;
     color: ${props => props.theme.colors.subTitle};
     font-weight: 400;
+
+    @media(max-width: 1000px) {
+      font-size: 1rem;
+      max-width: 80vw;
+    }
   }
 
   p {
@@ -26,6 +42,10 @@ export const Container = styled.div`
     strong {
       color: ${props => props.theme.colors.orange};
     }
+
+    @media(max-width: 1000px) {
+      max-width: 95vw;
+    }
   }
 
   header {
@@ -33,7 +53,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 
-    width: fit-content;
+    width: 100%;
 
     div {
       margin-top: 2rem;
@@ -42,8 +62,13 @@ export const Container = styled.div`
       flex-direction: column;
       justify-content: center;
 
+
       div:first-child {
         margin-right: 4rem;
+
+        @media(max-width: 1000px) {
+          margin-right: 0;
+        }
       }
 
       div:last-child {
@@ -66,11 +91,37 @@ export const Container = styled.div`
           font-weight: 400;
           font-size: 1rem;
         }
+
+        @media(max-width: 1000px) {
+          margin: 2rem 0;
+        }
+      }
+
+      @media(max-width: 1000px) {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
       }
     }
 
     img {
-      height: 20rem;
+      width:28rem;
+
+      @media(max-width: 1000px) {
+        width: 80vw;
+      }
+    }
+
+    .ads {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    @media(max-width: 1000px) {
+      flex-direction: column-reverse;
+      max-width: 95vw;
     }
   }
 
@@ -79,10 +130,33 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 1000px) {
+      flex-direction: column;
+      max-width: 95vw;
+
+      h1 {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .warn_title {
+    font-size: 3rem;
+
+    @media(max-width: 1000px) {
+      font-size: 1.5rem;
+    }
   }
 `
+interface ContentSectionProps {
+  leftBorder?: string;
+  rightBorder?: string;
+  invert?: boolean;
+  appearence?: 'obj' | 'act' | 'pers' | 'mix'
+}
 
-export const ContentSection = styled.section`
+export const ContentSection = styled.section<ContentSectionProps>`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,14 +167,87 @@ export const ContentSection = styled.section`
     margin-bottom: 0.8rem;
     width: auto;
     color: ${props => props.theme.colors.text};
+
+    @media(max-width: 1000px) {
+      text-align: center;
+    }
   }
 
   h1 {
-    color: ${props => props.theme.colors.title}
+    color: ${props => props.theme.colors.title};
   }
 
   div {
     padding: 5px 1rem;
+    ${props => props.leftBorder !== '' && 'border-left: 12px solid' + props.leftBorder + ';'}
+    ${props => props.rightBorder !== '' && 'border-right: 12px solid' + props.rightBorder + ';'}
+
+    ${props => props.appearence === 'obj' &&
+    'max-width: 20rem;' +
+    'margin-right: 6rem;'}
+
+    ${props => props.appearence === 'act' &&
+    'max-width: 30rem;' +
+    'margin-left: 6rem;'}
+
+    ${props => props.appearence === 'pers' &&
+    'max-width: 20rem;' +
+    'margin-right: 6rem;'}
+
+    ${props => props.appearence === 'mix' &&
+    'max-width: 30rem;' +
+    'margin-left: 6rem;'}
+
+    h1 {
+      @media(max-width: 1000px) {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column-reverse;
+
+        .line_style {
+          padding-bottom: 15px;
+        }
+      }
+    }
+
+    .line_style {
+      ${props => props.appearence === 'obj' &&
+    'width: 45px; border-bottom: 2px solid #3BC552; margin-bottom: 10px;'}
+      ${props => props.appearence === 'act' &&
+    'width: 45px; border-bottom: 2px solid #D42828; margin-bottom: 10px; margin-left: 0;'}
+      ${props => props.appearence === 'pers' &&
+    'width: 45px; border-bottom: 2px solid #EE861E; margin-bottom: 10px;'}
+      ${props => props.appearence === 'mix' &&
+    'padding: 0;'}
+
+      img {
+        width: 45px;
+      }
+    }
+
+    @media(max-width: 1000px) {
+      border-left: 0;
+      border-right: 0;
+      padding: 0;
+      ${props => (props.appearence === 'obj' || props.appearence === 'act' || props.appearence === 'mix' || props.appearence === 'pers') &&
+    'padding: 0;'}
+
+      ${props => props.appearence === 'obj' &&
+    'max-width: 80vw;' +
+    'margin-right: 0;'}
+
+      ${props => props.appearence === 'act' &&
+    'width: 80vw;' +
+    'margin-left: 0;'}
+
+      ${props => props.appearence === 'pers' &&
+    'max-width: 80vw;' +
+    'margin-right: 0;'}
+
+      ${props => props.appearence === 'mix' &&
+    'width: 80vw;' +
+    'margin-left: 0;'}
+    }
   }
 
   .only_text {
@@ -108,9 +255,56 @@ export const ContentSection = styled.section`
     align-items: flex-start;
 
     div {
+      align-items: center;
+      justify-content: center;
+
       h1 {
         padding: 10px 0;
       }
     }
+
+    .text_left {
+      margin-right: 3rem;
+
+      @media(max-width: 1000px) {
+        margin-right: 0;
+      }
+    }
+
+    .text_right {
+      margin-left: 3rem;
+
+      @media(max-width: 1000px) {
+        margin-left: 0;
+      }
+    }
+
+    @media(max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  img {
+    @media(max-width: 1000px) {
+      ${props => (props.appearence === 'obj' || props.appearence === 'act' || props.appearence === 'mix' || props.appearence === 'pers') &&
+    'width: 55vw;'
+  }
+    }
+  }
+
+  .illustra {
+    @media(max-width: 1000px) {
+      width: 90vw;
+    }
+  }
+
+  @media(max-width: 1000px) {
+  margin-bottom: 1rem;
+
+  ${props => props.invert ? 'flex-direction: column;' : 'flex-direction: column-reverse;'}
+  ${props => (props.appearence === 'obj' || props.appearence === 'act' || props.appearence === 'mix' || props.appearence === 'pers') &&
+    'max-width: 90vw;'
+  }
   }
 `

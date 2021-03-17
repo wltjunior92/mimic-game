@@ -20,6 +20,41 @@ export const Container = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        @media(max-width: 1000px) {
+          margin-top: 10px;
+        }
+      }
+
+      .sorting_type {
+        @media(max-width: 1000px) {
+          width: 90vw;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+
+      @media(max-width: 1000px) {
+        margin-left: 0;
+      }
+    }
+
+    @media(max-width: 1000px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .ad_hotmart {
+    display: flex;
+    img {
+      height: 300px;
+      width: 300px;
+      @media(max-width: 800px) {
+        height: 170px;
+        width: 170px;
       }
     }
   }
@@ -58,7 +93,6 @@ export const AddPlayerContainer = styled.div`
         color: #bdbdbd;
       }
     }
-
   }
 
   button {
@@ -74,19 +108,24 @@ export const AddPlayerContainer = styled.div`
       background: ${props => props.theme.colors.green};
     }
   }
+
+  @media(max-width: 1000px) {
+    width: 90vw;
+    margin-top: 10px;
+  }
 `
 
 export const SortTypeButton = styled.div<{ isSorting: boolean }>`
-  margin-top: 1rem;
   background-image: url("tv_image.png");
   width: 282px;
   height: 176px;
 
   button {
-
-     ${props =>
-    props.isSorting ? 'background-image: url("chuvisco.gif"); background-size: 242px 152px;' :
-      'background: #131313;'}
+    ${props =>
+    props.isSorting ?
+      'background-image: url("chuvisco.gif"); background-size: 242px 152px;' :
+      'background: #131313;'
+  }
 
 
     border-radius: 50px;
@@ -97,6 +136,36 @@ export const SortTypeButton = styled.div<{ isSorting: boolean }>`
     margin-top: 12px;
 
     color: #f5f5f5;
+
+    @media(max-width: 1000px) {
+      ${props =>
+    props.isSorting ?
+      'background-image: url("chuvisco.gif"); background-size: 159px 65px;' :
+      'background: #131313;'
+  }
+
+      border-radius: 20px;
+      border: 0;
+      width: 123px;
+      height: 65px;
+      margin-left: 6.5px;
+      margin-top: 6px;
+    }
+  }
+
+  h2 {
+    @media(max-width: 1000px) {
+      font-weight: 400;
+      font-size: 0.8rem;
+    }
+  }
+
+  @media(max-width: 1000px) {
+    width: 142px;
+    height: 76px;
+    background-repeat: no-repeat;
+    background-size: 142px 76px;
+    background-position: 2px;
   }
 `
 
