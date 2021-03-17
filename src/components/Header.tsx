@@ -1,40 +1,87 @@
-import { useRouter } from "next/dist/client/router";
+import Link from 'next/link'
+import { useState } from 'react';
 
 import { HeaderContainer } from '../styles/components/Header';
 
 export default function Header() {
-  const router = useRouter();
+  const [openMenu, setOpenMenu] = useState(false)
+
+  function handleOpenMenu() {
+    openMenu ? setOpenMenu(false) : setOpenMenu(true)
+  }
+
+  function handleBlur() {
+    let closeMenu = false;
+    new Promise((reject, resolve) => {
+      setTimeout(() => {
+        resolve(closeMenu)
+      }, 10)
+    }).catch(err => { }).finally(() =>
+      setOpenMenu(closeMenu)
+    )
+  }
 
   return (
-    <HeaderContainer>
-      <img src="logo_small.svg" alt="Mimicando" />
+    <HeaderContainer openMenu={openMenu}>
+      <div className="container">
+        <Link href="/">
+          <a>
+            <img src="logo.png " alt="Mimic Fácil" />
+          </a>
+        </Link>
 
-      <div className="buttons">
-        <button
-          onClick={e => {
-            e.preventDefault
-            router.push('/')
-          }}
-        >
-          Home
-        </button>
-        <button
-          onClick={e => {
-            e.preventDefault
-            router.push('/cards')
-          }}
-        >
-          Cartas
-        </button>
-        <button
-          onClick={e => {
-            e.preventDefault
-            router.push('/themes')
-          }}
-        >
-          Temas
+        <ul className="normal_buttons">
+          <li>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/board">
+              <a>Tabuleiro</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/cards">
+              <a>Cartas</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/themes">
+              <a>Temas</a>
+            </Link>
+          </li>
+        </ul>
+
+        <button className="menu_button" onClick={handleOpenMenu} onBlur={handleBlur}>
+          <img src="icons/menu.svg" />
+          <div className="paper">
+            <ul className="slide_buttons">
+              <li>
+                <Link href="/">
+                  <a>Home</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/board">
+                  <a>Tabuleiro</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/cards">
+                  <a>Cartas</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/themes">
+                  <a>Temas</a>
+                </Link>
+              </li>
+            </ul>
+          </div>
         </button>
       </div>
+
     </HeaderContainer>
   )
 }
