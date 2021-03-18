@@ -1,5 +1,4 @@
 import { AppProps } from 'next/app'
-import { useEffect, useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
