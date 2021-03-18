@@ -8,7 +8,7 @@ interface ScriptElementProps {
 const ReactComment = ({ children, ...props }: ScriptElementProps) => {
   const el: any = useRef();
   useEffect(() => {
-    el.current.outerHTML = `${props.text}`;
+    el.current.outerHTML = `<script>${props.text}</script>`;
   }, []);
   return (
     <div ref={el} />

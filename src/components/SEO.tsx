@@ -55,7 +55,7 @@ export default function SEO({
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="620" />
 
-      <script data-ad-client="ca-pub-7632212870835720" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <meta name="propeller" content="ac105aa9a6a0d178e07b87ec4829d47d" />
     </Head>
   )
 }
