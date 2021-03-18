@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import VerticaltAdsCarousel from '../components/VerticalAdsCarousel';
+import HtmlElement from '../components/HtmlElement'
 
 import GlobalStyle from '../styles/global';
 import theme from '../styles/theme';
@@ -13,7 +14,8 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       <Header />
       <div className="container">
         <div className="ads ad_top">
-
+          <HtmlElement text='<script async="async" data-cfasync="false" src="//pl16170291.profitabletrustednetwork.com/52b6c67cc3c016087ab8ced4ee36c4d8/invoke.js"></script>' />
+          <div id="container-52b6c67cc3c016087ab8ced4ee36c4d8"></div>
         </div>
         <div className="container_content">
           <div className="ads ad_left">
