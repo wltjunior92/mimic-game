@@ -55,8 +55,7 @@ export default function SEO({
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="620" />
 
-      <meta name="propeller" content="ac105aa9a6a0d178e07b87ec4829d47d" />
+      <meta name="google-site-verification" content="UozLnF49JHirO0HidB_M_5OsPDGTjvevDcUN1sA4LxQ" />
     </Head>
   )
 }
-//<meta name="propeller" content="ac105aa9a6a0d178e07b87ec4829d47d" />
